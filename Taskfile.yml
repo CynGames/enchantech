@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  generate:
+    cmds:
+      - templ generate
+  dev:
+    cmds:
+      - air -c .air.toml

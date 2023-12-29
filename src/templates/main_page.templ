@@ -1,0 +1,24 @@
+package templates
+
+import (
+    "enchantech/src/models"
+)
+
+templ MainPage(articles []models.Article) {
+    <body>
+        <h1>ARTICLES</h1>
+        for _, article := range articles {
+            <div>
+                <a href={templ.URL(article.ID)}>
+                <h3>
+                {article.Title}
+                </h3>
+                </a>
+                <div>
+                    {article.Description}
+                </div>
+                <img style="height: 225px; width: 400px; object-fit: contain; object-position: left top" src={article.ImageUrl} alt="Not Found" onerror="this.src='https://as2.ftcdn.net/v2/jpg/04/73/25/49/1000_F_473254957_bxG9yf4ly7OBO5I0O5KABlN930GwaMQz.jpg';" />
+            </div>
+        }
+    </body>
+}

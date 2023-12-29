@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>Discord Blog</title>
+        <link>https://discord.com</link>
+        <description>Learn about Discord&#39;s updates, insights, community stories, educational resources, and much
+            more.
+        </description>
+        <pubDate>Tue, 19 Dec 2023 07:48:59 GMT</pubDate>
+        <ttl>60</ttl>
+        <generator>Webflow</generator>
+        <atom:link href="https://discord.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Discord Developers, Hereâ€™s to 2023 and Whatâ€™s to Come!</title>
+            <link>https://discord.com/blog/discord-developers-heres-to-2023-and-whats-to-come</link>
+            <guid>https://discord.com/blog/discord-developers-heres-to-2023-and-whats-to-come</guid>
+            <description>As we bid farewell to 2023, letâ€™s reflect on the incredible journey weâ€™ve had together in
+                the world of developing on Discord.
+            </description>
+            <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/657c912af207f6fba400eccb_Dev%20Blog%20Header.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/657c912af207f6fba400eccb_Dev%20Blog%20Header.png"/>
+        </item>
+        <item>
+            <title>5 Holiday Gift Ideas for your Discord Friends</title>
+            <link>https://discord.com/blog/holiday-gift-guide-2023</link>
+            <guid>https://discord.com/blog/holiday-gift-guide-2023</guid>
+            <description>Weâ€™ve got a handful of Discord-themed gift ideas that you can give others for the Holidays
+                â€” or any time of the year!
+            </description>
+            <pubDate>Wed, 13 Dec 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/656faedde0f5be0412e2e421_DIS%20Gifting%20Moment%20Blog%20Banner.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/656faedde0f5be0412e2e421_DIS%20Gifting%20Moment%20Blog%20Banner.png"/>
+        </item>
+        <item>
+            <title>Discord Update: December 13, 2023 Changelog</title>
+            <link>https://discord.com/blog/discord-update-december-13-2023-changelog</link>
+            <guid>https://discord.com/blog/discord-update-december-13-2023-changelog</guid>
+            <description>Here&#39;s the Discord Changelog from December 13, 2023 so you can stay in-the-know about
+                whatâ€™s new in recent app updates!
+            </description>
+            <pubDate>Wed, 13 Dec 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/657a71a24b4bc2f1879762ea_Winter_December.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/657a71a24b4bc2f1879762ea_Winter_December.png"/>
+        </item>
+        <item>
+            <title>How Discord Modernized MFA with WebAuthn</title>
+            <link>https://discord.com/blog/how-discord-modernized-mfa-with-webauthn</link>
+            <guid>https://discord.com/blog/how-discord-modernized-mfa-with-webauthn</guid>
+            <description>WebAuthn has landed in Discord for all users! In this post, weâ€™ll talk about the engineering
+                challenges we faced introducing WebAuthn to Discord and how we overcame them.
+            </description>
+            <pubDate>Tue, 12 Dec 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6578bd5345289c1be8d4f5d4_Policy%20and%20Safety%20(1).png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6578bd5345289c1be8d4f5d4_Policy%20and%20Safety%20(1).png"/>
+        </item>
+        <item>
+            <title>pytest daemon: 10X Local Test Iteration Speed</title>
+            <link>https://discord.com/blog/pytest-daemon-10x-local-test-iteration-speed</link>
+            <guid>https://discord.com/blog/pytest-daemon-10x-local-test-iteration-speed</guid>
+            <description>At Discord, we utilize a Python monolith to power our API. But recently, it took a whopping 13
+                seconds to run a single test! Join engineer Ruby Feinstein as he tackles this situation and makes the
+                process better for everyone on his team.
+            </description>
+            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6555194328bacbf541b78da4_Engineering%20-%202%20(1).png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6555194328bacbf541b78da4_Engineering%20-%202%20(1).png"/>
+        </item>
+        <item>
+            <title>Improving Our Mobile Experience</title>
+            <link>https://discord.com/blog/improving-our-mobile-experience</link>
+            <guid>https://discord.com/blog/improving-our-mobile-experience</guid>
+            <description>Starting today, â€œDiscord but smolâ€ gets a fresh set of updates for touch input on the
+                screen that fits in your pocket. Check out everything thatâ€™s rolling out to your phone!
+            </description>
+            <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/656a67621c4ba32e7c3710fc_image14.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/656a67621c4ba32e7c3710fc_image14.png"/>
+        </item>
+        <item>
+            <title>The DDevs Server Celebrates 250k Members!</title>
+            <link>https://discord.com/blog/ddevs-celebrates-250k-members</link>
+            <guid>https://discord.com/blog/ddevs-celebrates-250k-members</guid>
+            <description>The official Discord Developers server reached an incredible milestone of over 250,000
+                community members! ðŸŽ‰
+            </description>
+            <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/65690639d911b0d8f5dc758e_DDevs_250k_blogheader.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/65690639d911b0d8f5dc758e_DDevs_250k_blogheader.png"/>
+        </item>
+        <item>
+            <title>Complete Your Look in the Shop, Now Open to All</title>
+            <link>https://discord.com/blog/complete-your-look-in-the-shop-now-open-to-all</link>
+            <guid>https://discord.com/blog/complete-your-look-in-the-shop-now-open-to-all</guid>
+            <description>Starting soon, everyone will be able to make purchases from the Shop and start their collection
+                of Avatar Decorations and Profile Effects! Read on to learn how to Shop! ðŸ›ï¸
+            </description>
+            <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/65650a4e1469447afe380df2_DIS_Shop-for-all_Blog-header_V1.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/65650a4e1469447afe380df2_DIS_Shop-for-all_Blog-header_V1.png"/>
+        </item>
+        <item>
+            <title>Ways to Customize Your Discord Experience</title>
+            <link>https://discord.com/blog/ways-to-customize-your-discord-experience</link>
+            <guid>https://discord.com/blog/ways-to-customize-your-discord-experience</guid>
+            <description>Tailor your forward-facing presence or spruce up the app itself, there are plenty of ways to
+                make Discord yours.
+            </description>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/655bd3b8b394a79a6b164395_%27Backup%20Blog%20Headers.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/655bd3b8b394a79a6b164395_%27Backup%20Blog%20Headers.png"/>
+        </item>
+        <item>
+            <title>Apps on Discord to Uplevel Your Competitive Gaming Skills</title>
+            <link>https://discord.com/blog/apps-to-uplevel-your-competitive-gaming-skills</link>
+            <guid>https://discord.com/blog/apps-to-uplevel-your-competitive-gaming-skills</guid>
+            <description>We, at Discord, like video games. You probably do, too! In this article, weâ€™re sharing four
+                apps that bring a bit of competitive spirit to you and your friends.
+            </description>
+            <pubDate>Thu, 16 Nov 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/655514d75d0bbd965abc3233_FTZ%204%20Apps%20Blog%20Header%20All%20Squares.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/655514d75d0bbd965abc3233_FTZ%204%20Apps%20Blog%20Header%20All%20Squares.png"/>
+        </item>
+        <item>
+            <title>25% or 6 to 4: The 11/6/23 Authentication Outage</title>
+            <link>https://discord.com/blog/authentication-outage</link>
+            <guid>https://discord.com/blog/authentication-outage</guid>
+            <description>On November 6th, 2023, Discordâ€™s authentication service went down for approximately 50
+                minutes, preventing users from using much of Discord. Here&#39;s what happened.
+            </description>
+            <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63178bf5d9f1714116f6a66d_Resources%20%26%20Education%20-%203.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63178bf5d9f1714116f6a66d_Resources%20%26%20Education%20-%203.png"/>
+        </item>
+        <item>
+            <title>Congrats to the Discord App Pitches 2023 Finalists!</title>
+            <link>https://discord.com/blog/app-pitches-2023</link>
+            <guid>https://discord.com/blog/app-pitches-2023</guid>
+            <description>Between September 26 and October 10, 2023, the Discord Developer community pitched their ideas
+                for a chance to receive up to $15,000 in funding. See the finalists in this blog post!
+            </description>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/650b82b99e601c8658b56f8c_blog%20header.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/650b82b99e601c8658b56f8c_blog%20header.png"/>
+        </item>
+        <item>
+            <title>@Everyoneâ€™s a Member: Get Two Weeks of Nitro on Us</title>
+            <link>https://discord.com/blog/everyones-a-member-get-two-weeks-of-nitro-on-us</link>
+            <guid>https://discord.com/blog/everyones-a-member-get-two-weeks-of-nitro-on-us</guid>
+            <description>Between November 6th and November 13th, 2023, anyone whoâ€™s not currently a Nitro member can
+                try it for 2 weeks on us! Youâ€™re about to see way more decked-out profiles and Super Reactions in your
+                chats.
+            </description>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/654580c0a25af460db3ebc23_DIS%20MKT%20NITRO%20DROP%20Blog%20Header.jpg"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/654580c0a25af460db3ebc23_DIS%20MKT%20NITRO%20DROP%20Blog%20Header.jpg"/>
+        </item>
+        <item>
+            <title>9 Tips for Hanging Out on Discord</title>
+            <link>https://discord.com/blog/9-tips-for-hanging-out-on-discord</link>
+            <guid>https://discord.com/blog/9-tips-for-hanging-out-on-discord</guid>
+            <description>Looking to get more organized, or quiet your notifications to better focus on your
+                conversations? Here are nine things that can make hanging out with friends on Discord easier.
+            </description>
+            <pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/651dd80a164bf193189d7891_BackupBlogHeaders_Batch2Artboard%204.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/651dd80a164bf193189d7891_BackupBlogHeaders_Batch2Artboard%204.png"/>
+        </item>
+        <item>
+            <title>Scariest Games to Play and Stream with Your Friends on Discord</title>
+            <link>https://discord.com/blog/scariest-games-to-play-and-stream-on-discord</link>
+            <guid>https://discord.com/blog/scariest-games-to-play-and-stream-on-discord</guid>
+            <description>Today, weâ€™re sharing a handful of horror games that work great for using Discord Voice with
+                and stream-worthy frights for your friends to watch.
+            </description>
+            <pubDate>Thu, 26 Oct 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/65398c0d89c80ffb42882c85_Scary%20Games%20Blog%20Header%20TEMP%20COLORED%20LOGO.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/65398c0d89c80ffb42882c85_Scary%20Games%20Blog%20Header%20TEMP%20COLORED%20LOGO.png"/>
+        </item>
+        <item>
+            <title>Maxjourney: Pushing Discordâ€™s Limits with a Million+ Online Users in a Single Server</title>
+            <link>
+                https://discord.com/blog/maxjourney-pushing-discords-limits-with-a-million-plus-online-users-in-a-single-server
+            </link>
+            <guid>
+                https://discord.com/blog/maxjourney-pushing-discords-limits-with-a-million-plus-online-users-in-a-single-server
+            </guid>
+            <description>In this post, weâ€™ll talk about some of the ways weâ€™ve scaled individual Discord servers
+                from tens of thousands of concurrent users to approaching two million concurrent users in the past few
+                years.
+            </description>
+            <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/62a281f083081c68ebb94672_Discord%20HQ%20-%203.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/62a281f083081c68ebb94672_Discord%20HQ%20-%203.png"/>
+        </item>
+        <item>
+            <title>Developers on Discord: Enjoy Premium App Subscriptions and more!</title>
+            <link>https://discord.com/blog/premium-app-subscriptions-for-discord-developers</link>
+            <guid>https://discord.com/blog/premium-app-subscriptions-for-discord-developers</guid>
+            <description>Today, weâ€™re announcing the ability for eligible US, EU, and UK-based app developers to
+                monetize their Discord Apps natively on the platform with Premium App Subscriptions.
+            </description>
+            <pubDate>Thu, 19 Oct 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/652f1c815306637db31ca3b8_image2.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/652f1c815306637db31ca3b8_image2.png"/>
+        </item>
+        <item>
+            <title>How Weâ€™re Making Discord the Best Place to Hang Out and Have Fun with Your Friends</title>
+            <link>https://discord.com/blog/best-place-to-hang-out-with-friends</link>
+            <guid>https://discord.com/blog/best-place-to-hang-out-with-friends</guid>
+            <description>Today, weâ€™re announcing new and upcoming features that make Discord even more fun and easier
+                to use.
+            </description>
+            <pubDate>Thu, 19 Oct 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6402942dbef5384072addc0d_BackupBlogHeaders_Batch2Artboard%207.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6402942dbef5384072addc0d_BackupBlogHeaders_Batch2Artboard%207.png"/>
+        </item>
+        <item>
+            <title>Discord Update: October 19, 2023 Changelog</title>
+            <link>https://discord.com/blog/discord-update-october-19-2023-changelog</link>
+            <guid>https://discord.com/blog/discord-update-october-19-2023-changelog</guid>
+            <description>Here&#39;s the Discord Changelog from October 19, 2023 so you can stay in-the-know about
+                whatâ€™s new in recent app updates!
+            </description>
+            <pubDate>Thu, 19 Oct 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/654409dbbf40922256139a9a_Fall_October.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/654409dbbf40922256139a9a_Fall_October.png"/>
+        </item>
+        <item>
+            <title>A Devilishly Discord Halloween Celebration Loomsâ€¦Â ðŸ‘»</title>
+            <link>https://discord.com/blog/halloween-2023-activities-zombie-plushie</link>
+            <guid>https://discord.com/blog/halloween-2023-activities-zombie-plushie</guid>
+            <description>What happens when the ghosts gather on Discord? New ringtones, eerie plushies, and terrifying
+                Activity updates. Read on to see whatâ€™s in store!
+            </description>
+            <pubDate>Wed, 18 Oct 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/652f1b86cbb36054876e47b0_Halloween%20Banner.jpg"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/652f1b86cbb36054876e47b0_Halloween%20Banner.jpg"/>
+        </item>
+        <item>
+            <title>Avatar Decorations &amp; Profile Effects: Collect and Keep the Newest Styles</title>
+            <link>https://discord.com/blog/avatar-decorations-collect-and-keep-the-newest-styles</link>
+            <guid>https://discord.com/blog/avatar-decorations-collect-and-keep-the-newest-styles</guid>
+            <description>Starting today, Nitro members get early access to the Shop, full of stylish avatar decorations
+                and profile effects to add some good olâ€™ razzle-dazzle to their profiles.
+            </description>
+            <pubDate>Thu, 12 Oct 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6514773178cb945e3c97705b_Discord_Collectible_BlogHeader%20Banner_V6_RESIZED.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6514773178cb945e3c97705b_Discord_Collectible_BlogHeader%20Banner_V6_RESIZED.png"/>
+        </item>
+        <item>
+            <title>Supporting Youth Mental Health: Discord&#39;s Partnership with Crisis Text Line</title>
+            <link>https://discord.com/blog/supporting-youth-mental-health-discords-partnership-with-crisis-text-line
+            </link>
+            <guid>https://discord.com/blog/supporting-youth-mental-health-discords-partnership-with-crisis-text-line
+            </guid>
+            <description>Discordâ€™s Mental Health Policy Manager walks us through what the Crisis Text Line is, what
+                they do, and how their staff offers support to anyone who may need it.
+            </description>
+            <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/611ea7e9e45389f284ccee47_1_OXDxh25oIISR39QB2za82Q.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/611ea7e9e45389f284ccee47_1_OXDxh25oIISR39QB2za82Q.png"/>
+        </item>
+        <item>
+            <title>Gen Z Mental Health: Empowering Conversation in an Uncertain World</title>
+            <link>https://discord.com/blog/gen-z-mental-health-empowering-conversation-in-an-uncertain-world</link>
+            <guid>https://discord.com/blog/gen-z-mental-health-empowering-conversation-in-an-uncertain-world</guid>
+            <description>There&#39;s a profound link between human connection and well-being. For Gen Z, this need for
+                connection takes shape both online and in person.
+            </description>
+            <pubDate>Wed, 04 Oct 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/651dd80a164bf193189d7891_BackupBlogHeaders_Batch2Artboard%204.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/651dd80a164bf193189d7891_BackupBlogHeaders_Batch2Artboard%204.png"/>
+        </item>
+        <item>
+            <title>Two Lovely Hispanic &amp; Latinx-owned Discord Communities</title>
+            <link>https://discord.com/blog/two-lovely-hispanic-latinx-owned-discord-communities</link>
+            <guid>https://discord.com/blog/two-lovely-hispanic-latinx-owned-discord-communities</guid>
+            <description>For this yearâ€™s Hispanic &amp; Latinx Heritage Month, weâ€™re diving into two unique,
+                creative, and downright magical communities.
+            </description>
+            <pubDate>Mon, 02 Oct 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6517621c8dffabb604de9e7e_1800x720_blog_header.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6517621c8dffabb604de9e7e_1800x720_blog_header.png"/>
+        </item>
+        <item>
+            <title>What Itâ€™s Like to Be a Discord Intern</title>
+            <link>https://discord.com/blog/what-its-like-to-be-a-discord-intern</link>
+            <guid>https://discord.com/blog/what-its-like-to-be-a-discord-intern</guid>
+            <description>We sat down with this yearâ€™s Discord Interns to ask them what they learned and advice for
+                future Interns!
+            </description>
+            <pubDate>Thu, 14 Sep 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6500e0a0a46eabf7129d4392_Frame_20_1.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6500e0a0a46eabf7129d4392_Frame_20_1.png"/>
+        </item>
+        <item>
+            <title>Discord Update: September 13, 2023 Changelog</title>
+            <link>https://discord.com/blog/discord-update-september-13-2023-changelog</link>
+            <guid>https://discord.com/blog/discord-update-september-13-2023-changelog</guid>
+            <description>Here&#39;s the Discord Changelog from September 13, 2023 so you can stay in-the-know about
+                whatâ€™s new in recent app updates!
+            </description>
+            <pubDate>Wed, 13 Sep 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/650233ad5dcf4b6825522e09_Fall_September.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/650233ad5dcf4b6825522e09_Fall_September.png"/>
+        </item>
+        <item>
+            <title>Now Available: Stream Your Xbox Games Directly to Discord</title>
+            <link>https://discord.com/blog/xbox-stream-to-discord-announcement</link>
+            <guid>https://discord.com/blog/xbox-stream-to-discord-announcement</guid>
+            <description>Today, weâ€™re stoked to announce the ability to Stream to Discord is coming to Xbox Series X|S
+                and Xbox One consoles soon! Read on to learn how using Stream to Discord on your Xbox will work.
+            </description>
+            <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64f8ce1927fcd30fdfe80a56_23_117_Xbox_Social_1800x720.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64f8ce1927fcd30fdfe80a56_23_117_Xbox_Social_1800x720.png"/>
+        </item>
+        <item>
+            <title>Best Apps for Students to Study and Socialize on Discord</title>
+            <link>https://discord.com/blog/best-discord-apps-for-students-studying-socializing</link>
+            <guid>https://discord.com/blog/best-discord-apps-for-students-studying-socializing</guid>
+            <description>Dust off your backpack and hit the campus library! To celebrate Back to School, check out
+                Discord&#39;s best study features, apps, and Activities.
+            </description>
+            <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64ee1e326f98eba675aa4fc1_image7.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64ee1e326f98eba675aa4fc1_image7.png"/>
+        </item>
+        <item>
+            <title>Encryption for Voice and Video on Discord</title>
+            <link>https://discord.com/blog/encryption-for-voice-and-video-on-discord</link>
+            <guid>https://discord.com/blog/encryption-for-voice-and-video-on-discord</guid>
+            <description>At Discord, user privacy has always been one of our highest values and priorities. To support
+                this, weâ€™re starting to experiment with new encryption protocols for voice and video calls. Read on to
+                learn more.
+            </description>
+            <pubDate>Fri, 11 Aug 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64d66915e701ef8cc6179040_Policy__Safety_-_3.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64d66915e701ef8cc6179040_Policy__Safety_-_3.png"/>
+        </item>
+        <item>
+            <title>How Discord Rolled Out Yubikeys for All Employees</title>
+            <link>https://discord.com/blog/how-discord-rolled-out-yubikeys-for-all-employees</link>
+            <guid>https://discord.com/blog/how-discord-rolled-out-yubikeys-for-all-employees</guid>
+            <description></description>
+            <pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64c41f102044065060fc0610_Engineering%20-%201.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64c41f102044065060fc0610_Engineering%20-%201.png"/>
+        </item>
+        <item>
+            <title>Discord Update: July 29, 2023 Changelog</title>
+            <link>https://discord.com/blog/discord-update-july-29-2023-changelog</link>
+            <guid>https://discord.com/blog/discord-update-july-29-2023-changelog</guid>
+            <description>Here&#39;s the Discord Changelog from July 29, 2023 so you can stay in-the-know about whatâ€™s
+                new in recent app updates!
+            </description>
+            <pubDate>Sat, 29 Jul 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64c7e8751b517e9cc56a5238_Summer_July.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64c7e8751b517e9cc56a5238_Summer_July.png"/>
+        </item>
+        <item>
+            <title>Party Up in the Summerâ€™s Most-Played Games on Discord</title>
+            <link>https://discord.com/blog/summers-most-played-games-on-discord</link>
+            <guid>https://discord.com/blog/summers-most-played-games-on-discord</guid>
+            <description>Summer is the perfect time for gaming â€” today, weâ€™re revealing most-played games that YOU,
+                the gamers of Discord, are playing day in and day out. Grab your preferred controller or keyboard and
+                dive in!
+            </description>
+            <pubDate>Wed, 26 Jul 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64c0216095f32666554818d5_Blog%402x.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64c0216095f32666554818d5_Blog%402x.png"/>
+        </item>
+        <item>
+            <title>Get a Month of Discord Nitro On Us During Summer BOGO</title>
+            <link>https://discord.com/blog/summer-bogo-get-a-month-of-discord-nitro-on-us</link>
+            <guid>https://discord.com/blog/summer-bogo-get-a-month-of-discord-nitro-on-us</guid>
+            <description>From July 25th, 2023 to August 1st, 2023, new and returning users who buy either a monthly or
+                yearly Discord Nitro membership will receive an additional month of Nitro for free.
+            </description>
+            <pubDate>Tue, 25 Jul 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64bedb1dc8788d2a9bf4c4dc_1800x720.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64bedb1dc8788d2a9bf4c4dc_1800x720.png"/>
+        </item>
+        <item>
+            <title>Amplify Your Discord Experience with These Awesome AI Apps</title>
+            <link>https://discord.com/blog/awesome-ai-apps-bots-amplify-your-discord-experience</link>
+            <guid>https://discord.com/blog/awesome-ai-apps-bots-amplify-your-discord-experience</guid>
+            <description>Weâ€™re sending out a message of appreciation for Artificial Intelligence! Today, weâ€™re
+                highlighting some amazing AI-powered apps from our creative developer community.
+            </description>
+            <pubDate>Thu, 13 Jul 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64af3aac29866b3f86f1c648_Products%20%26%20Features%20-%202.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64af3aac29866b3f86f1c648_Products%20%26%20Features%20-%202.png"/>
+        </item>
+        <item>
+            <title>Stay Connected With Your Teen Using Discordâ€™s Family Center</title>
+            <link>https://discord.com/blog/discord-family-center-stay-connected-with-your-teen</link>
+            <guid>https://discord.com/blog/discord-family-center-stay-connected-with-your-teen</guid>
+            <description>Discord&#39;s Family Center is a new opt-in tool that makes it easy for teens to keep their
+                parents and guardians informed about their Discord activity while respecting their autonomy.
+            </description>
+            <pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64a5c9b18aeb2461e2b21c85_image2.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64a5c9b18aeb2461e2b21c85_image2.png"/>
+        </item>
+        <item>
+            <title>Celebrating Disability Pride Month With Two Inclusive Communities</title>
+            <link>https://discord.com/blog/celebrating-disability-pride-month-with-two-inclusive-communities</link>
+            <guid>https://discord.com/blog/celebrating-disability-pride-month-with-two-inclusive-communities</guid>
+            <description>Celebrate Disability Pride Month with two exemplary examples of community spaces on Discord
+                that take into consideration everyone thatâ€™s on the platform: The Kuni Corner and ADHD Dopamine.
+            </description>
+            <pubDate>Thu, 06 Jul 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64a6f958d35a52e4bf4d6724_DPM23_BlogHeader.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64a6f958d35a52e4bf4d6724_DPM23_BlogHeader.png"/>
+        </item>
+        <item>
+            <title>Meme Up Some Fun with Remix</title>
+            <link>https://discord.com/blog/meme-up-some-fun-with-remix</link>
+            <guid>https://discord.com/blog/meme-up-some-fun-with-remix</guid>
+            <description>Remix is a new way to create and contribute your own flair to images uploaded to Discord. Learn
+                how to remix, create, meme and share below.
+            </description>
+            <pubDate>Wed, 05 Jul 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/649e03012c058e734627d965_Remixing-Blog-Header.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/649e03012c058e734627d965_Remixing-Blog-Header.png"/>
+        </item>
+        <item>
+            <title>Discord Update: June 22, 2023 Changelog</title>
+            <link>https://discord.com/blog/discord-update-june-22-2023-changelog</link>
+            <guid>https://discord.com/blog/discord-update-june-22-2023-changelog</guid>
+            <description>Here&#39;s the Discord Changelog from June 22, 2023 so you can stay in-the-know about whatâ€™s
+                new in recent app updates!
+            </description>
+            <pubDate>Thu, 22 Jun 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6494b1e02e40699d67a766e6_Summer_June.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6494b1e02e40699d67a766e6_Summer_June.png"/>
+        </item>
+        <item>
+            <title>Server Subscriptions Just Got Super Powered: Introducing Media Channels, Tier Templates and more!
+            </title>
+            <link>https://discord.com/blog/server-subscriptions-updates-media-channels-tier-templates-and-more</link>
+            <guid>https://discord.com/blog/server-subscriptions-updates-media-channels-tier-templates-and-more</guid>
+            <description>Today, weâ€™re excited to share new tools that help creators get started faster and create more
+                value in their Server Subscriptions and monetization offerings.
+            </description>
+            <pubDate>Tue, 20 Jun 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/648cef33984677d825ca2763_PortalArticleHeader_1800x720.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/648cef33984677d825ca2763_PortalArticleHeader_1800x720.png"/>
+        </item>
+        <item>
+            <title>Privacy and Safety on Discord</title>
+            <link>https://discord.com/blog/privacy-and-safety-on-discord</link>
+            <guid>https://discord.com/blog/privacy-and-safety-on-discord</guid>
+            <description>Discord is clarifying the safety procedures and policies we follow in different spaces on
+                Discord with Community, Partner and Verified server badges.
+            </description>
+            <pubDate>Thu, 08 Jun 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6481133ca04838343a0676a5_BackupBlogHeaders_Batch2Artboard%202.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6481133ca04838343a0676a5_BackupBlogHeaders_Batch2Artboard%202.png"/>
+        </item>
+        <item>
+            <title>Pride at Discord â€” Our Values and Our Actions</title>
+            <link>https://discord.com/blog/pride-at-discord-our-values-and-our-actions</link>
+            <guid>https://discord.com/blog/pride-at-discord-our-values-and-our-actions</guid>
+            <description>Discord supports the Pride movement celebrating the dignity, equality, power, and joy of
+                LGBTQIA+ people and communities around the world.
+            </description>
+            <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6478ddbdcc9a6e2be34d8323_Blog_1800x720%401x.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6478ddbdcc9a6e2be34d8323_Blog_1800x720%401x.png"/>
+        </item>
+        <item>
+            <title>Bridging Mental Health Gaps for Gen Z</title>
+            <link>https://discord.com/blog/bridging-gen-z-mental-health-gaps</link>
+            <guid>https://discord.com/blog/bridging-gen-z-mental-health-gaps</guid>
+            <description>For Mental Health Awareness Month, we surveyed Gen Z adults and parents about the mental health
+                challenges that Gen Z faces.
+            </description>
+            <pubDate>Wed, 31 May 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/635b114317d3dc3fae9b2564_Community%20-%202.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/635b114317d3dc3fae9b2564_Community%20-%202.png"/>
+        </item>
+        <item>
+            <title>Fun Things to Do With Your Friends on Discord</title>
+            <link>https://discord.com/blog/fun-things-to-do-on-discord-apps-activities</link>
+            <guid>https://discord.com/blog/fun-things-to-do-on-discord-apps-activities</guid>
+            <description>Bring some life back into your Discord server with third-party apps to check out, plus how to
+                enjoy games and Activities with your friends directly in Discord.
+            </description>
+            <pubDate>Wed, 31 May 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64777c94f5f4e1d038525b68_TimesSquare_Blog_1800x720.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64777c94f5f4e1d038525b68_TimesSquare_Blog_1800x720.png"/>
+        </item>
+        <item>
+            <title>Discord Update: May 22, 2023 Changelog</title>
+            <link>https://discord.com/blog/discord-update-may-22-2023-changelog</link>
+            <guid>https://discord.com/blog/discord-update-may-22-2023-changelog</guid>
+            <description>Here&#39;s the Discord Changelog from May 23, 2023 so you can stay in-the-know about whatâ€™s
+                new in recent app updates!
+            </description>
+            <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/646d3dfadaf245263be22231_Spring_May.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/646d3dfadaf245263be22231_Spring_May.png"/>
+        </item>
+        <item>
+            <title>Discover the DISXCORE Collection on DiscordMerch.com</title>
+            <link>https://discord.com/blog/disxcore-merch-collection-on-discordmerch-com</link>
+            <guid>https://discord.com/blog/disxcore-merch-collection-on-discordmerch-com</guid>
+            <description>Cybernetic vibes, futuristic feels, and mecha moods: the Disxcore Collection. Here&#39;s
+                whatâ€™s available in the latest Discord merch line.
+            </description>
+            <pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64650af78d3e0d8dec060be8_2023_SS23_Launch_Statics_1800x720.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64650af78d3e0d8dec060be8_2023_SS23_Launch_Statics_1800x720.png"/>
+        </item>
+        <item>
+            <title>Celebrate Discordâ€™s 8th Birthday with Free Activities and More</title>
+            <link>https://discord.com/blog/celebrate-discord-8th-birthday-free-activities-more</link>
+            <guid>https://discord.com/blog/celebrate-discord-8th-birthday-free-activities-more</guid>
+            <description>Between May 15â€“June 15, we celebrated our eighth Discord birthday! Enjoy free Activities, new
+                merch, special Nitro perks, and more.
+            </description>
+            <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/648b3bc4b88ecbcb96174358_2023-Discord-8th-Birthday_Activities_ForeverBLOG_1800x720.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/648b3bc4b88ecbcb96174358_2023-Discord-8th-Birthday_Activities_ForeverBLOG_1800x720.png"/>
+        </item>
+        <item>
+            <title>Join Wumpus and Friends in Our New â€œWumpus Wonderventuresâ€ Comic</title>
+            <link>https://discord.com/blog/join-wumpus-and-friends-in-wonderventures-webtoon-comic</link>
+            <guid>https://discord.com/blog/join-wumpus-and-friends-in-wonderventures-webtoon-comic</guid>
+            <description>Join Wumpus as they explore the world, make new friends, and discover alternate universes in
+                Wumpus Wonderventures: our new comic on at WEBTOON.
+            </description>
+            <pubDate>Wed, 10 May 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64595e390936142b947889b0_NitroWebtoon_BlogHeader.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64595e390936142b947889b0_NitroWebtoon_BlogHeader.png"/>
+        </item>
+        <item>
+            <title>Celebrate May the 4th with a Fortnite Quest in Discord!</title>
+            <link>https://discord.com/blog/fortnite-quest</link>
+            <guid>https://discord.com/blog/fortnite-quest</guid>
+            <description>From now until May 22nd, you can get your hands on the Coruscant&#39;s Pride Wrap. Here&#39;s
+                how.
+            </description>
+            <pubDate>Thu, 04 May 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/645157a216b3cd07a1a8a2d8_Banner_1800x720-starwars.jpg"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/645157a216b3cd07a1a8a2d8_Banner_1800x720-starwars.jpg"/>
+        </item>
+        <item>
+            <title>Evolving Usernames on Discord</title>
+            <link>https://discord.com/blog/usernames</link>
+            <guid>https://discord.com/blog/usernames</guid>
+            <description>Discord usernames are changing to remove four-digit discriminators. Display Names are being
+                added so how you appear to other users stays the same. Read on for more info.
+            </description>
+            <pubDate>Wed, 03 May 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/645c294e1f5bcda693b9df11_usernames%20blog%20header.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/645c294e1f5bcda693b9df11_usernames%20blog%20header.png"/>
+        </item>
+        <item>
+            <title>Two Incredible AANHPI-led Discord Communities Uniting People Across the World</title>
+            <link>https://discord.com/blog/aanhpi-2023</link>
+            <guid>https://discord.com/blog/aanhpi-2023</guid>
+            <description>Weâ€™re shining the spotlight on two AANHPI-owned communities on Discord that bring the world
+                closer together both digitally and physically.
+            </description>
+            <pubDate>Mon, 01 May 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/644aff66ddadf27106b42b46_BlogHeader_1800x720.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/644aff66ddadf27106b42b46_BlogHeader_1800x720.png"/>
+        </item>
+        <item>
+            <title>Developers, Supercharge Your Moderation with AutoMod</title>
+            <link>https://discord.com/blog/supercharge-your-moderation-with-automod-in-your-apps</link>
+            <guid>https://discord.com/blog/supercharge-your-moderation-with-automod-in-your-apps</guid>
+            <description>Today, weâ€™re inviting developers on Discord to supercharge their own moderation applications
+                by integrating directly with AutoMod.
+            </description>
+            <pubDate>Thu, 20 Apr 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64407c741f67190b27525f0c_image1.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64407c741f67190b27525f0c_image1.png"/>
+        </item>
+        <item>
+            <title>Discord Update: April 14, 2023 Changelog</title>
+            <link>https://discord.com/blog/discord-update-april-14-2023-changelog</link>
+            <guid>https://discord.com/blog/discord-update-april-14-2023-changelog</guid>
+            <description>Here&#39;s the Discord Changelog from April 14, 2023 so you can stay in-the-know about whatâ€™s
+                new in recent app updates!
+            </description>
+            <pubDate>Thu, 20 Apr 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6441bd561f47091d8174e16c_Spring_April.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6441bd561f47091d8174e16c_Spring_April.png"/>
+        </item>
+        <item>
+            <title>Welcome Your New Members Easily with Community Onboarding</title>
+            <link>https://discord.com/blog/community-onboarding-welcome-your-new-members</link>
+            <guid>https://discord.com/blog/community-onboarding-welcome-your-new-members</guid>
+            <description>Starting today, every Community Server can opt to use a simple Onboarding survey that guides
+                new members through your server&#39;s roles and channels.
+            </description>
+            <pubDate>Wed, 19 Apr 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/643d9e196f9a672e57e79b3f_Community%20Onboarding_Blog%20Header_blog%20header.jpg"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/643d9e196f9a672e57e79b3f_Community%20Onboarding_Blog%20Header_blog%20header.jpg"/>
+        </item>
+        <item>
+            <title>Introducing Discord Voice Messages</title>
+            <link>https://discord.com/blog/discord-voice-messages</link>
+            <guid>https://discord.com/blog/discord-voice-messages</guid>
+            <description>Starting today, weâ€™re rolling out the ability to send Voice Messages in DMs, GDMs, and
+                servers with voice messages enabled.
+            </description>
+            <pubDate>Fri, 14 Apr 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64399621c8daafe18d84b451_VoiceMessages_Blog_1800x720%402x.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64399621c8daafe18d84b451_VoiceMessages_Blog_1800x720%402x.png"/>
+        </item>
+        <item>
+            <title>Our Response to the Pentagon Leaks</title>
+            <link>https://discord.com/blog/our-response-to-the-pentagon-leaks</link>
+            <guid>https://discord.com/blog/our-response-to-the-pentagon-leaks</guid>
+            <description>From individual safety to national security, we are addressing vital issues that affect society
+                at large.
+            </description>
+            <pubDate>Fri, 14 Apr 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6402942dbef5384072addc0d_BackupBlogHeaders_Batch2Artboard%207.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6402942dbef5384072addc0d_BackupBlogHeaders_Batch2Artboard%207.png"/>
+        </item>
+        <item>
+            <title>Ready Your Airhorns! ðŸŽº Discord Soundboard is Coming Your Way</title>
+            <link>https://discord.com/blog/ready-your-airhorns-discord-soundboard-is-coming</link>
+            <guid>https://discord.com/blog/ready-your-airhorns-discord-soundboard-is-coming</guid>
+            <description>Today, weâ€™re introducing Soundboard: a new way to react in Voice channels with sounds curated
+                by your community.
+            </description>
+            <pubDate>Thu, 06 Apr 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/642c8db3a577675a498f6168_BackupBlogHeaders_Batch2Artboard%205.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/642c8db3a577675a498f6168_BackupBlogHeaders_Batch2Artboard%205.png"/>
+        </item>
+        <item>
+            <title>New to Discord Nitro: Super Reactions Make Your Emoji Burst to Life</title>
+            <link>https://discord.com/blog/super-reactions-make-emoji-burst-to-life-discord-nitro</link>
+            <guid>https://discord.com/blog/super-reactions-make-emoji-burst-to-life-discord-nitro</guid>
+            <description>Super Reactions are the newest perk for Discord Nitro subscribers, bringing an extra burst of
+                energy and spirit to hype up chat when you need it the most.
+            </description>
+            <pubDate>Thu, 06 Apr 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/642c93aa534c2922f17a99e7_2023_BurstReactions_Static_BlogHDR_005.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/642c93aa534c2922f17a99e7_2023_BurstReactions_Static_BlogHDR_005.png"/>
+        </item>
+        <item>
+            <title>April Showers Bring Super-Cool Nitro Powers</title>
+            <link>https://discord.com/blog/april-showers-bring-super-cool-nitro-powers</link>
+            <guid>https://discord.com/blog/april-showers-bring-super-cool-nitro-powers</guid>
+            <description>Weâ€™ve got SUPER REACTIONS. Weâ€™ve got SOUNDBOARD. Weâ€™ve got THEMES and even limited time
+                AVATAR DECORATIONS. Today, Discord Nitro gets even better.
+            </description>
+            <pubDate>Thu, 06 Apr 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/642ca8066bcbdd2a77f4a702_NAD_NitroBanner_Purple.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/642ca8066bcbdd2a77f4a702_NAD_NitroBanner_Purple.png"/>
+        </item>
+        <item>
+            <title>Discord Transparency Report: October - December 2022</title>
+            <link>https://discord.com/blog/discord-transparency-report-q4-2022</link>
+            <guid>https://discord.com/blog/discord-transparency-report-q4-2022</guid>
+            <description>This Discord transparency report covers October to December 2022.</description>
+            <pubDate>Thu, 30 Mar 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/615e08a57562b757afbe7032_TransparencyReport_BlogHeader.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/615e08a57562b757afbe7032_TransparencyReport_BlogHeader.png"/>
+        </item>
+        <item>
+            <title>Discord Update: March 20, 2023 Changelog</title>
+            <link>https://discord.com/blog/discord-update-march-20-2023-changelog</link>
+            <guid>https://discord.com/blog/discord-update-march-20-2023-changelog</guid>
+            <description>Here&#39;s the Discord Changelog from March 20, 2023 so you can stay in-the-know about whatâ€™s
+                new in recent app updates!
+            </description>
+            <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6419e9dca30b3d2df089afb5_Spring_March.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6419e9dca30b3d2df089afb5_Spring_March.png"/>
+        </item>
+        <item>
+            <title>Join us at GDC 2023, both IRL and on Discord!</title>
+            <link>https://discord.com/blog/discord-at-gdc-2023</link>
+            <guid>https://discord.com/blog/discord-at-gdc-2023</guid>
+            <description>Whether youâ€™re enjoying the Game Developers Conference IRL or digitally, weâ€™ve got plenty
+                of ways you can still get involved!
+            </description>
+            <pubDate>Fri, 17 Mar 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64139c34c797ae6a8a8eed59_blog%20header.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64139c34c797ae6a8a8eed59_blog%20header.png"/>
+        </item>
+        <item>
+            <title>Now in Nitro: Bring Your Vibe to Discord with New Themes</title>
+            <link>https://discord.com/blog/bring-your-vibe-to-discord-with-new-themes-in-nitro</link>
+            <guid>https://discord.com/blog/bring-your-vibe-to-discord-with-new-themes-in-nitro</guid>
+            <description>Starting today, weâ€™re bringing Discord Nitro subscribers a colorful surprise with Themes: a
+                new way to add a splash of personality and make Discord pop.
+            </description>
+            <pubDate>Thu, 16 Mar 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64121f8765e921a28f9a2b54_Discord%20HQ%20-%202.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64121f8765e921a28f9a2b54_Discord%20HQ%20-%202.png"/>
+        </item>
+        <item>
+            <title>Discord Activities: Play Games and Watch Together</title>
+            <link>https://discord.com/blog/server-activities-games-voice-watch-together</link>
+            <guid>https://discord.com/blog/server-activities-games-voice-watch-together</guid>
+            <description>Activities let you instantly enjoy shared experiences with friends, such as games and media,
+                directly within Discord, on both desktop and mobile!
+            </description>
+            <pubDate>Wed, 15 Mar 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/633cc73511d1b97578f933e1_2022_Activities_BlogNews_1800x720%20(1).png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/633cc73511d1b97578f933e1_2022_Activities_BlogNews_1800x720%20(1).png"/>
+        </item>
+        <item>
+            <title>Discord is Your Place for AI with Friends</title>
+            <link>https://discord.com/blog/ai-on-discord-your-place-for-ai-with-friends</link>
+            <guid>https://discord.com/blog/ai-on-discord-your-place-for-ai-with-friends</guid>
+            <description>Today, weâ€™re announcing new AI experiments, including an AI chatbot called Clyde, AutoMod AI,
+                and Conversation Summaries, and launching an AI Incubator.
+            </description>
+            <pubDate>Thu, 09 Mar 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64064bb87f76f7e45341ed38_AI-DD-Blog-Header.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/64064bb87f76f7e45341ed38_AI-DD-Blog-Header.png"/>
+        </item>
+        <item>
+            <title>Now Available: Use Discord Voice Chat on Your PlayStationÂ®5 Console</title>
+            <link>https://discord.com/blog/playstation-5-voice-integration-announcement</link>
+            <guid>https://discord.com/blog/playstation-5-voice-integration-announcement</guid>
+            <description>For almost eight years, Discord has been the go-to place for gamers to talk together while
+                playing their favorite games. Now, you can use Discord voice chat with your friends on desktop, web,
+                console, or mobile using your PS5.
+            </description>
+            <pubDate>Wed, 08 Mar 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/640843453613c80273894d6e_playstation_launch_blog%20header.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/640843453613c80273894d6e_playstation_launch_blog%20header.png"/>
+        </item>
+        <item>
+            <title>Two Fantastic Women-Owned Discord Communities</title>
+            <link>https://discord.com/blog/iwd-2023-two-women-owned-servers</link>
+            <guid>https://discord.com/blog/iwd-2023-two-women-owned-servers</guid>
+            <description>For this yearâ€™s International Womenâ€™s Day, weâ€™re shining the limelight on two women-led
+                Discord communities.
+            </description>
+            <pubDate>Tue, 07 Mar 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63ffd1f53b2f8e3ce772894c_BlogHeader_1800x720%402x.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63ffd1f53b2f8e3ce772894c_BlogHeader_1800x720%402x.png"/>
+        </item>
+        <item>
+            <title>How Discord Stores Trillions of Messages</title>
+            <link>https://discord.com/blog/how-discord-stores-trillions-of-messages</link>
+            <guid>https://discord.com/blog/how-discord-stores-trillions-of-messages</guid>
+            <description>Engineer Bo Ingram shares insight into how Discord shoulders its traffic and provides a
+                platform for our users to communicate.
+            </description>
+            <pubDate>Mon, 06 Mar 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/640658a746a8ce16d18f27ac_027_Header.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/640658a746a8ce16d18f27ac_027_Header.png"/>
+        </item>
+        <item>
+            <title>Clarifying Our Dangerous and Regulated Goods Policy</title>
+            <link>https://discord.com/blog/clarifying-our-dangerous-and-regulated-goods-policy</link>
+            <guid>https://discord.com/blog/clarifying-our-dangerous-and-regulated-goods-policy</guid>
+            <description>We recently announced updates to our Community Guidelines, which go into effect March 27, 2023.
+                In this article, weâ€™re diving deeper to clarify our Dangerous and Regulated Goods policy.
+            </description>
+            <pubDate>Fri, 03 Mar 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6402942dbef5384072addc0d_BackupBlogHeaders_Batch2Artboard%207.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6402942dbef5384072addc0d_BackupBlogHeaders_Batch2Artboard%207.png"/>
+        </item>
+        <item>
+            <title>Important Policy Updates</title>
+            <link>https://discord.com/blog/important-policy-updates</link>
+            <guid>https://discord.com/blog/important-policy-updates</guid>
+            <description>Hello folks, itâ€™s Important Announcement Dayâ„¢: weâ€™re updating our Terms of Service,
+                Privacy Policy, and Community Guidelines!
+            </description>
+            <pubDate>Fri, 24 Feb 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/61ea03c5f329550592ff06cd_Policy%20Updates%20Blog.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/61ea03c5f329550592ff06cd_Policy%20Updates%20Blog.png"/>
+        </item>
+        <item>
+            <title>Discord Update: February 20, 2023 Changelog</title>
+            <link>https://discord.com/blog/discord-update-february-20-2023-changelog</link>
+            <guid>https://discord.com/blog/discord-update-february-20-2023-changelog</guid>
+            <description>Here&#39;s the Discord update from February 20th, 2023 so you can stay in-the-know about
+                whatâ€™s new in recent app updates!
+            </description>
+            <pubDate>Tue, 21 Feb 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63ebf6ed3437144cd8e9791f_Winter_February.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63ebf6ed3437144cd8e9791f_Winter_February.png"/>
+        </item>
+        <item>
+            <title>Introducing Video, Screen Share, and Text Chat Support for Stage Channels</title>
+            <link>https://discord.com/blog/introducing-video-screen-share-text-chat-support-for-stage-channels</link>
+            <guid>https://discord.com/blog/introducing-video-screen-share-text-chat-support-for-stage-channels</guid>
+            <description>Today, Stages are getting a huge upgrade: Discord Stage channels are gaining video, screen
+                sharing, and text chat support.
+            </description>
+            <pubDate>Tue, 14 Feb 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63ea5288a7bf7a7fedd49468_StageChannels_v2_Blog-01.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63ea5288a7bf7a7fedd49468_StageChannels_v2_Blog-01.png"/>
+        </item>
+        <item>
+            <title>Celebrating Black History Month on Discord</title>
+            <link>https://discord.com/blog/black-history-month-2023</link>
+            <guid>https://discord.com/blog/black-history-month-2023</guid>
+            <description>For Black History Month 2023, weâ€™re sharing a handful of examples that embody our mantra of
+                trying to create a world where everyone has a place to belong.
+            </description>
+            <pubDate>Wed, 08 Feb 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63e2e54709c3bfde0bb75f6b_BHM2023_BLOGHDR_1800x720.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63e2e54709c3bfde0bb75f6b_BHM2023_BLOGHDR_1800x720.png"/>
+        </item>
+        <item>
+            <title>Joining Forces to Create a Safer Internet</title>
+            <link>https://discord.com/blog/safer-internet-day-2023</link>
+            <guid>https://discord.com/blog/safer-internet-day-2023</guid>
+            <description>Weâ€™re participating in Safer Internet Day to show our commitment to internet safety and
+                joining forces with others to make the internet a safer place.
+            </description>
+            <pubDate>Tue, 07 Feb 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63e19b332a1a2b54d5027a94_image1.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63e19b332a1a2b54d5027a94_image1.png"/>
+        </item>
+        <item>
+            <title>Discord Update: January 25, 2023 Changelog</title>
+            <link>https://discord.com/blog/discord-update-january-25-2023-changelog</link>
+            <guid>https://discord.com/blog/discord-update-january-25-2023-changelog</guid>
+            <description>Here&#39;s the Discord Changelog from January 25th, 2023 so you can stay in-the-know about
+                whatâ€™s new in recent app updates!
+            </description>
+            <pubDate>Wed, 25 Jan 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63d05bf7a7feb14ac067b4bf_Winter_January.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63d05bf7a7feb14ac067b4bf_Winter_January.png"/>
+        </item>
+        <item>
+            <title>Welcoming Gas to Discord</title>
+            <link>https://discord.com/blog/welcoming-gas-to-discord</link>
+            <guid>https://discord.com/blog/welcoming-gas-to-discord</guid>
+            <description>Today, weâ€™re excited to share that Discord is acquiring Gas, the popular poll-based social
+                app that lets friends share compliments with one another.
+            </description>
+            <pubDate>Tue, 17 Jan 2023 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63c6e5fc81fbdd4500fa95e2_BackupBlogHeaders_Batch2Artboard%206.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63c6e5fc81fbdd4500fa95e2_BackupBlogHeaders_Batch2Artboard%206.png"/>
+        </item>
+        <item>
+            <title>What We Did During Snowsgiving 2022</title>
+            <link>https://discord.com/blog/snowsgiving-2022</link>
+            <guid>https://discord.com/blog/snowsgiving-2022</guid>
+            <description>Over 1.2 million community members came together for Snowsgiving 2021 â€” see what we did in
+                the following blog post!
+            </description>
+            <pubDate>Thu, 22 Dec 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63a3a268824b2b785426523c_image5.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63a3a268824b2b785426523c_image5.png"/>
+        </item>
+        <item>
+            <title>Discord Transparency Report: July - September 2022</title>
+            <link>https://discord.com/blog/discord-transparency-report-q3-2022</link>
+            <guid>https://discord.com/blog/discord-transparency-report-q3-2022</guid>
+            <description>This Discord transparency report covers July to September 2022.</description>
+            <pubDate>Thu, 15 Dec 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/615e08a57562b757afbe7032_TransparencyReport_BlogHeader.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/615e08a57562b757afbe7032_TransparencyReport_BlogHeader.png"/>
+        </item>
+        <item>
+            <title>Make Your Connection: Connected Accounts Get a Huge Functionality Boost</title>
+            <link>https://discord.com/blog/connected-accounts-functionality-boost-linked-roles</link>
+            <guid>https://discord.com/blog/connected-accounts-functionality-boost-linked-roles</guid>
+            <description>Starting today and rolling out over the next few weeks, weâ€™re giving Connections a huge
+                functionality boost for Discord users and developers: Show off even more details from your connected
+                accounts, and gain new Linked Roles that can grant access to special channels within a server.
+            </description>
+            <pubDate>Mon, 12 Dec 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6393ae0ce6ab8ebeb1bab04d_image1.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6393ae0ce6ab8ebeb1bab04d_image1.png"/>
+        </item>
+        <item>
+            <title>Evolving Our Policies to Keep You Safe</title>
+            <link>https://discord.com/blog/discord-policy-updates-2022</link>
+            <guid>https://discord.com/blog/discord-policy-updates-2022</guid>
+            <description>In the first half of this year, our team focused on updating policies to address the biggest
+                issues that we saw people experiencing on Discord.
+            </description>
+            <pubDate>Mon, 05 Dec 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/638a71cfbd7fbf6236a8ba0a_Policy%20%26%20Safety%20-%202.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/638a71cfbd7fbf6236a8ba0a_Policy%20%26%20Safety%20-%202.png"/>
+        </item>
+        <item>
+            <title>Announcing Server Subscriptions and the Creator Portal, Now Open to More Communities</title>
+            <link>https://discord.com/blog/server-and-creator-subscriptions</link>
+            <guid>https://discord.com/blog/server-and-creator-subscriptions</guid>
+            <description>Today, weâ€™re expanding the availability of Server Subscriptions, allowing existing creators
+                to now earn directly on Discord.
+            </description>
+            <pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6387a302c7db2474abd10c5c_Macro%20Hero-Blog.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6387a302c7db2474abd10c5c_Macro%20Hero-Blog.png"/>
+        </item>
+        <item>
+            <title>How to Create and Use Discord Emojis: A Beginnerâ€™s Guide to Creative Conversation</title>
+            <link>https://discord.com/blog/beginners-guide-to-custom-emojis</link>
+            <guid>https://discord.com/blog/beginners-guide-to-custom-emojis</guid>
+            <description>Emojis on Discord are special â€” you can make a little picture out of almost any symbol,
+                in-joke, or bizarre late-night inspiration.
+            </description>
+            <pubDate>Wed, 02 Nov 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63603f76620d3470d9bd3f1f_2022_EmojiSurvey_HEADER_2%20(1).png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63603f76620d3470d9bd3f1f_2022_EmojiSurvey_HEADER_2%20(1).png"/>
+        </item>
+        <item>
+            <title>Talk Emoji To Me: The Science Behind Why We Love These Tiny Pictures</title>
+            <link>https://discord.com/blog/talk-emoji-to-me-survey-the-science-behind-emojis</link>
+            <guid>https://discord.com/blog/talk-emoji-to-me-survey-the-science-behind-emojis</guid>
+            <description>To understand the power behind emojis, we surveyed 16,000 emoji users across the globe to
+                uncover why theyâ€™re so beloved by so many. Hereâ€™s what we learned.
+            </description>
+            <pubDate>Wed, 02 Nov 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/636285eea07dcfc97aa1cc0a_2022_EmojiSurvey_FNLHEADER.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/636285eea07dcfc97aa1cc0a_2022_EmojiSurvey_FNLHEADER.png"/>
+        </item>
+        <item>
+            <title>Discord x Crunchyroll: Get Premium Access, Connect Your Accounts, and Dive Into Anime</title>
+            <link>https://discord.com/blog/crunchyroll-x-discord</link>
+            <guid>https://discord.com/blog/crunchyroll-x-discord</guid>
+            <description>Starting today, eligible Crunchyroll subscribers can claim Discord Nitro, and eligible Nitro
+                subscribers can get Crunchyroll Premium!
+            </description>
+            <pubDate>Wed, 02 Nov 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6361a13512f42127ed7ec24c_Blog%20-%201800x720%20(1).png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6361a13512f42127ed7ec24c_Blog%20-%201800x720%20(1).png"/>
+        </item>
+        <item>
+            <title>Discord Update: November 1, 2022 Changelog</title>
+            <link>https://discord.com/blog/discord-update-november-1-2022-changelog</link>
+            <guid>https://discord.com/blog/discord-update-november-1-2022-changelog</guid>
+            <description>Here&#39;s the Discord Changelog from November 1st, 2022 so you can stay in-the-know about
+                recent app updates!
+            </description>
+            <pubDate>Tue, 01 Nov 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/636042835883b97b259ef618_Fall_November.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/636042835883b97b259ef618_Fall_November.png"/>
+        </item>
+        <item>
+            <title>Discord Transparency Report: April - June 2022</title>
+            <link>https://discord.com/blog/discord-transparency-report-q2-2022</link>
+            <guid>https://discord.com/blog/discord-transparency-report-q2-2022</guid>
+            <description>This Discord transparency report covers April to June 2022.</description>
+            <pubDate>Fri, 28 Oct 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/615e08a57562b757afbe7032_TransparencyReport_BlogHeader.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/615e08a57562b757afbe7032_TransparencyReport_BlogHeader.png"/>
+        </item>
+        <item>
+            <title>Attention Discord Developers: The App Directory is Here!</title>
+            <link>https://discord.com/blog/app-directory-is-here-developers</link>
+            <guid>https://discord.com/blog/app-directory-is-here-developers</guid>
+            <description>Got an app you want to add to the Directory? Getting really excited for the future of your app
+                and want to learn how to add ahead of time? Letâ€™s go through the process of getting your app listed on
+                the App Directory.
+            </description>
+            <pubDate>Fri, 28 Oct 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/635acde66203b15fdc48146f_2022_Q3_AppDirectory_Dev_BlogHeader_1800x720.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/635acde66203b15fdc48146f_2022_Q3_AppDirectory_Dev_BlogHeader_1800x720.png"/>
+        </item>
+        <item>
+            <title>Fostering Friendships: A Beginnerâ€™s Guide to Discord Friends</title>
+            <link>https://discord.com/blog/beginners-guide-to-discord-friends</link>
+            <guid>https://discord.com/blog/beginners-guide-to-discord-friends</guid>
+            <description>Friends are a big part of making your Discord experience unforgettable â€” which is why weâ€™ve
+                written this helpful blog post to explain how they work.
+            </description>
+            <pubDate>Fri, 28 Oct 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/635b114317d3dc3fae9b2564_Community%20-%202.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/635b114317d3dc3fae9b2564_Community%20-%202.png"/>
+        </item>
+        <item>
+            <title>Attention Server Owners: The App Directory is Here!</title>
+            <link>https://discord.com/blog/app-directory-is-here-mods-and-admins</link>
+            <guid>https://discord.com/blog/app-directory-is-here-mods-and-admins</guid>
+            <description>Whether itâ€™s moderation support, a new game to play, or a tool that helps you look things up
+                without leaving chat, the best community-made applications and bots are searchable directly within
+                Discord thanks to the new App Directory.
+            </description>
+            <pubDate>Fri, 21 Oct 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/634dde89272560563ac10898_2022_Q3_AppDirectory_Admin_HeroBanner_1800x720.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/634dde89272560563ac10898_2022_Q3_AppDirectory_Admin_HeroBanner_1800x720.png"/>
+        </item>
+        <item>
+            <title>How to Use Nitro: A Beginnerâ€™s Guide to Discordâ€™s Premium Subscription</title>
+            <link>https://discord.com/blog/beginners-guide-to-nitro</link>
+            <guid>https://discord.com/blog/beginners-guide-to-nitro</guid>
+            <description>Whatâ€™s Discord Nitro all about? What perks does it give, and how can you get it? Let&#39;s
+                dig in.
+            </description>
+            <pubDate>Thu, 20 Oct 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6349dc6599facd0c0a41ca7a_Products%20%26%20Features%20-%203%20Nitro.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6349dc6599facd0c0a41ca7a_Products%20%26%20Features%20-%203%20Nitro.png"/>
+        </item>
+        <item>
+            <title>A Beginnerâ€™s Guide to using Discord Apps</title>
+            <link>https://discord.com/blog/how-to-use-discord-apps</link>
+            <guid>https://discord.com/blog/how-to-use-discord-apps</guid>
+            <description>New to apps on Discord? Hereâ€™s a short guide to help you turn from a rookie to an app pro,
+                just like the millions of users who interact with Discord apps every day!
+            </description>
+            <pubDate>Tue, 18 Oct 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/634dde89272560563ac10898_2022_Q3_AppDirectory_Admin_HeroBanner_1800x720.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/634dde89272560563ac10898_2022_Q3_AppDirectory_Admin_HeroBanner_1800x720.png"/>
+        </item>
+        <item>
+            <title>Introducing Discord Nitro Basic</title>
+            <link>https://discord.com/blog/introducing-discord-nitro-basic</link>
+            <guid>https://discord.com/blog/introducing-discord-nitro-basic</guid>
+            <description>Try Nitro Basic to access some of the favorite Nitro features for a lower price, like custom
+                emoji anywhere, bigger file uploads, and more.
+            </description>
+            <pubDate>Mon, 17 Oct 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/633cc7f6518225f5dbb2b104_Discord%20Nitro_Blog%20Header.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/633cc7f6518225f5dbb2b104_Discord%20Nitro_Blog%20Header.png"/>
+        </item>
+        <item>
+            <title>How Weâ€™re Building the Future of Discord</title>
+            <link>https://discord.com/blog/building-the-future-of-discord</link>
+            <guid>https://discord.com/blog/building-the-future-of-discord</guid>
+            <description>Announcing more Apps, Activities, and Nitro, oh my!</description>
+            <pubDate>Mon, 17 Oct 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6348685d7c7b4e693020de8c_macro%20hero-blog%20header%402x.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6348685d7c7b4e693020de8c_macro%20hero-blog%20header%402x.png"/>
+        </item>
+        <item>
+            <title>World Mental Health Day 2022: Being Real About Burnout</title>
+            <link>https://discord.com/blog/world-mental-health-day-2022-being-real-about-burnout</link>
+            <guid>https://discord.com/blog/world-mental-health-day-2022-being-real-about-burnout</guid>
+            <description>For World Mental Health Day, weâ€™re partnering with To Write Love On Her Arms to help
+                moderators and creators better identify the potential signs of burnout.
+            </description>
+            <pubDate>Mon, 10 Oct 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/633f1868e1ed20dc6e376d34_Blog%20Header%401x.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/633f1868e1ed20dc6e376d34_Blog%20Header%401x.png"/>
+        </item>
+        <item>
+            <title>Celebrate Capcom x Discord and Get the Fall Fashion Set DLC pack in Monster Hunter Rise: Sunbreak
+            </title>
+            <link>https://discord.com/blog/capcom-x-discord-fall-fashion-set-dlc-monster-hunter-rise-sunbreak</link>
+            <guid>https://discord.com/blog/capcom-x-discord-fall-fashion-set-dlc-monster-hunter-rise-sunbreak</guid>
+            <description>Weâ€™re excited to announce Discordâ€™s partnership with Capcom! Share your Monster Hunter
+                experience at the click of a button and earn in-game rewards!
+            </description>
+            <pubDate>Thu, 22 Sep 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/632b91cf04cb9b1cbbc59436_BlogHeader_1800x720-11x_1.jpg"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/632b91cf04cb9b1cbbc59436_BlogHeader_1800x720-11x_1.jpg"/>
+        </item>
+        <item>
+            <title>Blocking Spam Gets Easier Thanks to New AutoMod and Safety Tools</title>
+            <link>https://discord.com/blog/new-anti-spam-raid-automod-safety-update</link>
+            <guid>https://discord.com/blog/new-anti-spam-raid-automod-safety-update</guid>
+            <description>We&#39;re introducing new moderation features and sharing a sneak peek into our plans that&#39;ll
+                make it easier to keep your communities safer from spam and raids.
+            </description>
+            <pubDate>Wed, 21 Sep 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/632a295901d7d8875861dbaf_2022_AutoModSpamFilters_Static_003.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/632a295901d7d8875861dbaf_2022_AutoModSpamFilters_Static_003.png"/>
+        </item>
+        <item>
+            <title>Mejor Unidos: How Discordâ€™s Hispanic and Latinx ERG is â€œBetter Togetherâ€</title>
+            <link>https://discord.com/blog/hispanic-latinx-heritage-month-2022-better-together</link>
+            <guid>https://discord.com/blog/hispanic-latinx-heritage-month-2022-better-together</guid>
+            <description>We sat down with a few fellow members of Discordâ€™s Hispanic and Latinx ERG to learn about the
+                way that communities can impact and uplift people together.
+            </description>
+            <pubDate>Thu, 15 Sep 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63210df939db93db97f04368_HLHM_BlogHeader_1800x720.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63210df939db93db97f04368_HLHM_BlogHeader_1800x720.png"/>
+        </item>
+        <item>
+            <title>Forum Channels: A Space for Organized Conversations</title>
+            <link>https://discord.com/blog/forum-channels-space-for-organized-conversation</link>
+            <guid>https://discord.com/blog/forum-channels-space-for-organized-conversation</guid>
+            <description>Weâ€™re excited to roll out a new way to help your community server hold organized, meaningful
+                conversations without drowning each other out: Forum Channels.
+            </description>
+            <pubDate>Wed, 14 Sep 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/631bbb77ff041e9b9bcd8505_UZEzk_N4.jpeg"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/631bbb77ff041e9b9bcd8505_UZEzk_N4.jpeg"/>
+        </item>
+        <item>
+            <title>Now Available: Join Discord Voice Chat Directly From Your Xbox</title>
+            <link>https://discord.com/blog/xbox-voice-integration-announcement</link>
+            <guid>https://discord.com/blog/xbox-voice-integration-announcement</guid>
+            <description>This one is huge: You can now connect to Discord Voice chats from your Xbox Series X|S and Xbox
+                One consoles and talk directly with your friends on Discord.
+            </description>
+            <pubDate>Tue, 13 Sep 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/62d0746010f70706d1341f68_image3.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/62d0746010f70706d1341f68_image3.png"/>
+        </item>
+        <item>
+            <title>Discord Update: August 29, 2022 Changelog</title>
+            <link>https://discord.com/blog/discord-update-august-29-2022-changelog</link>
+            <guid>https://discord.com/blog/discord-update-august-29-2022-changelog</guid>
+            <description>Here&#39;s the Discord Changelog from August 29th, 2022 so you can stay in-the-know about
+                recent app updates!
+            </description>
+            <pubDate>Tue, 13 Sep 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6360419dba12275999ef0eee_Summer_August.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/6360419dba12275999ef0eee_Summer_August.png"/>
+        </item>
+        <item>
+            <title>An Update on our Mental Health &amp; Belonging Work</title>
+            <link>https://discord.com/blog/an-update-on-our-mental-health-belonging-work</link>
+            <guid>https://discord.com/blog/an-update-on-our-mental-health-belonging-work</guid>
+            <description>As part of our growing efforts to support our users and communities on Discord, weâ€™re
+                thrilled to share some new updates and resources related to mental health and belonging.
+            </description>
+            <pubDate>Mon, 12 Sep 2022 00:00:00 GMT</pubDate>
+            <media:content
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63178bf5d9f1714116f6a66d_Resources%20%26%20Education%20-%203.png"
+                    medium="image"/>
+            <media:thumbnail
+                    url="https://uploads-ssl.webflow.com/5f9072399b2640f14d6a2bf4/63178bf5d9f1714116f6a66d_Resources%20%26%20Education%20-%203.png"/>
+        </item>
+    </channel>
+</rss>

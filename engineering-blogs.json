@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Uber",
+    "rss": "https://www.uber.com/en-US/blog/engineering/rss/"
+  },
+  {
+    "name": "Discord",
+    "rss": "https://discord.com/blog/rss.xml"
+  }
+]
