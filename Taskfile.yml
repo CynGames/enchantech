@@ -1,9 +1,18 @@
 version: '3'
 
 tasks:
+  build_css:
+    cmds:
+      - npx tailwindcss -i ./src/styles/index.css -o ./static/main.css
   generate:
     cmds:
       - templ generate
-  dev:
+  build:
     cmds:
-      - air -c .air.toml
+      - go build -o ./tmp/main ./src/main.go
+  run:
+    cmds:
+      - ./tmp/main
+  seed:
+    cmds:
+      - go run src/seed/main.go

@@ -1,10 +1,10 @@
-module enchantech
+module enchantech-codex
 
-go 1.21.5
+go 1.21
 
 require (
 	github.com/PuerkitoBio/goquery v1.8.1 // indirect
-	github.com/a-h/templ v0.2.501 // indirect
+	github.com/a-h/templ v0.2.513 // indirect
 	github.com/andybalholm/cascadia v1.3.2 // indirect
 	github.com/go-co-op/gocron/v2 v2.1.1 // indirect
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
