@@ -8,6 +8,7 @@ import (
 func StartServer(echoInstance *echo.Echo, feedController *controller.FeedController) error {
 	println("Configuring server routes...")
 	echoInstance.GET("/", feedController.GetArticles)
+	echoInstance.GET("/force", feedController.UpdateArticles)
 	echoInstance.POST("/update", feedController.UpdateArticles)
 	echoInstance.Static("/static", "./static")
 

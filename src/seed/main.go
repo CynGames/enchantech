@@ -5,11 +5,14 @@ import (
 	"enchantech-codex/src/models"
 	"enchantech-codex/src/utils"
 	"encoding/json"
+	"github.com/joho/godotenv"
 	"gorm.io/gorm"
 	"io"
 )
 
 func main() {
+	err := godotenv.Load(".env", "./infra/.env")
+
 	println("Setting up database...")
 	db, err := SetupDatabase()
 	utils.ErrorPanicPrinter(err, true)

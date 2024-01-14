@@ -1,0 +1,354 @@
+{
+  "version": 4,
+  "terraform_version": "1.6.6",
+  "serial": 154,
+  "lineage": "f0db3f80-313a-bb2e-cc2c-dbb195a6560c",
+  "outputs": {
+    "database_output": {
+      "value": "mysql://doadmin:AVNS_mquevJ0IZghOFg3PHXP@enchantech-codex-cluster-tf-do-user-12948347-0.c.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED",
+      "type": "string",
+      "sensitive": true
+    }
+  },
+  "resources": [
+    {
+      "mode": "data",
+      "type": "digitalocean_database_cluster",
+      "name": "cluster-data",
+      "provider": "provider[\"registry.terraform.io/digitalocean/digitalocean\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "database": "defaultdb",
+            "engine": "mysql",
+            "host": "enchantech-codex-cluster-tf-do-user-12948347-0.c.db.ondigitalocean.com",
+            "id": "647d3f70-d09f-4950-8a9f-fcb0d8ba3d3a",
+            "maintenance_window": null,
+            "name": "enchantech-codex-cluster-tf",
+            "node_count": 1,
+            "password": "AVNS_mquevJ0IZghOFg3PHXP",
+            "port": 25060,
+            "private_host": "private-enchantech-codex-cluster-tf-do-user-12948347-0.c.db.ondigitalocean.com",
+            "private_network_uuid": "dd7c698d-f86d-4485-aece-d6124e807400",
+            "private_uri": "mysql://doadmin:AVNS_mquevJ0IZghOFg3PHXP@private-enchantech-codex-cluster-tf-do-user-12948347-0.c.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED",
+            "project_id": "3f6365bb-b3d8-470a-978b-18a2dc05c4b4",
+            "region": "nyc1",
+            "size": "db-s-1vcpu-1gb",
+            "storage_size_mib": "10240",
+            "tags": [],
+            "uri": "mysql://doadmin:AVNS_mquevJ0IZghOFg3PHXP@enchantech-codex-cluster-tf-do-user-12948347-0.c.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED",
+            "urn": "do:dbaas:647d3f70-d09f-4950-8a9f-fcb0d8ba3d3a",
+            "user": "doadmin",
+            "version": "8"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "template_file",
+      "name": "env",
+      "provider": "provider[\"registry.terraform.io/hashicorp/template\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "filename": null,
+            "id": "b154fdea95a250b140377e2212122232a0e04cd19fe0a1ce597530e2074bbf1a",
+            "rendered": "DATABASE_URI=mysql://doadmin:AVNS_mquevJ0IZghOFg3PHXP@enchantech-codex-cluster-tf-do-user-12948347-0.c.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED",
+            "template": "DATABASE_URI=${database_uri}",
+            "vars": {
+              "database_uri": "mysql://doadmin:AVNS_mquevJ0IZghOFg3PHXP@enchantech-codex-cluster-tf-do-user-12948347-0.c.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED"
+            }
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "vars"
+              },
+              {
+                "type": "index",
+                "value": {
+                  "value": "database_uri",
+                  "type": "string"
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "digitalocean_app",
+      "name": "enchantech-codex-app",
+      "provider": "provider[\"registry.terraform.io/digitalocean/digitalocean\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "active_deployment_id": "1ab3fd09-8616-45f6-a8e6-b3ca7e334338",
+            "created_at": "2024-01-07 22:09:12 +0000 UTC",
+            "default_ingress": "https://enchantech-codex-app-bt5zq.ondigitalocean.app",
+            "id": "237643ad-af23-4c8b-8554-5622d898d335",
+            "live_url": "https://enchantech-codex-app-bt5zq.ondigitalocean.app",
+            "spec": [
+              {
+                "alert": [],
+                "database": [
+                  {
+                    "cluster_name": "enchantech-codex-cluster-tf",
+                    "db_name": "",
+                    "db_user": "",
+                    "engine": "MYSQL",
+                    "name": "enchantech-codex-db-tf",
+                    "production": true,
+                    "version": ""
+                  }
+                ],
+                "domain": [],
+                "domains": [],
+                "env": [],
+                "features": [],
+                "function": [],
+                "ingress": [
+                  {
+                    "rule": [
+                      {
+                        "component": [
+                          {
+                            "name": "api",
+                            "preserve_path_prefix": false,
+                            "rewrite": ""
+                          }
+                        ],
+                        "cors": [],
+                        "match": [
+                          {
+                            "path": [
+                              {
+                                "prefix": "/"
+                              }
+                            ]
+                          }
+                        ],
+                        "redirect": []
+                      }
+                    ]
+                  }
+                ],
+                "job": [],
+                "name": "enchantech-codex-app",
+                "region": "nyc",
+                "service": [
+                  {
+                    "alert": [],
+                    "build_command": "",
+                    "cors": [],
+                    "dockerfile_path": "",
+                    "env": [],
+                    "environment_slug": "go",
+                    "git": [],
+                    "github": [],
+                    "gitlab": [],
+                    "health_check": [],
+                    "http_port": 11001,
+                    "image": [
+                      {
+                        "deploy_on_push": [
+                          {
+                            "enabled": true
+                          }
+                        ],
+                        "registry": "",
+                        "registry_type": "DOCR",
+                        "repository": "enchantech-codex",
+                        "tag": "latest"
+                      }
+                    ],
+                    "instance_count": 1,
+                    "instance_size_slug": "basic-xxs",
+                    "internal_ports": [],
+                    "log_destination": [],
+                    "name": "api",
+                    "routes": [],
+                    "run_command": "",
+                    "source_dir": ""
+                  }
+                ],
+                "static_site": [],
+                "worker": []
+              }
+            ],
+            "timeouts": null,
+            "updated_at": "2024-01-08 20:14:38 +0000 UTC",
+            "urn": "do:app:237643ad-af23-4c8b-8554-5622d898d335"
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwfX0=",
+          "dependencies": [
+            "digitalocean_container_registry.enchantech-codex-registry",
+            "null_resource.enchantech-codex-packaging"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "digitalocean_container_registry",
+      "name": "enchantech-codex-registry",
+      "provider": "provider[\"registry.terraform.io/digitalocean/digitalocean\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "created_at": "2024-01-07 22:07:52 +0000 UTC",
+            "endpoint": "registry.digitalocean.com/enchantech-codex-registry",
+            "id": "enchantech-codex-registry",
+            "name": "enchantech-codex-registry",
+            "region": "sfo2",
+            "server_url": "registry.digitalocean.com",
+            "storage_usage_bytes": 174987264,
+            "subscription_tier_slug": "starter"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "digitalocean_database_cluster",
+      "name": "enchantech-codex-cluster",
+      "provider": "provider[\"registry.terraform.io/digitalocean/digitalocean\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "backup_restore": [],
+            "database": "defaultdb",
+            "engine": "mysql",
+            "eviction_policy": null,
+            "host": "enchantech-codex-cluster-tf-do-user-12948347-0.c.db.ondigitalocean.com",
+            "id": "647d3f70-d09f-4950-8a9f-fcb0d8ba3d3a",
+            "maintenance_window": [],
+            "name": "enchantech-codex-cluster-tf",
+            "node_count": 1,
+            "password": "AVNS_mquevJ0IZghOFg3PHXP",
+            "port": 25060,
+            "private_host": "private-enchantech-codex-cluster-tf-do-user-12948347-0.c.db.ondigitalocean.com",
+            "private_network_uuid": "dd7c698d-f86d-4485-aece-d6124e807400",
+            "private_uri": "mysql://doadmin:AVNS_mquevJ0IZghOFg3PHXP@private-enchantech-codex-cluster-tf-do-user-12948347-0.c.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED",
+            "project_id": "3f6365bb-b3d8-470a-978b-18a2dc05c4b4",
+            "region": "nyc1",
+            "size": "db-s-1vcpu-1gb",
+            "sql_mode": null,
+            "storage_size_mib": "10240",
+            "tags": [],
+            "timeouts": null,
+            "uri": "mysql://doadmin:AVNS_mquevJ0IZghOFg3PHXP@enchantech-codex-cluster-tf-do-user-12948347-0.c.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED",
+            "urn": "do:dbaas:647d3f70-d09f-4950-8a9f-fcb0d8ba3d3a",
+            "user": "doadmin",
+            "version": "8"
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwfX0="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "digitalocean_project",
+      "name": "enchantech-codex-project",
+      "provider": "provider[\"registry.terraform.io/digitalocean/digitalocean\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "created_at": "2024-01-07T22:09:32Z",
+            "description": "",
+            "environment": "",
+            "id": "3f6365bb-b3d8-470a-978b-18a2dc05c4b4",
+            "is_default": false,
+            "name": "enchantech-codex",
+            "owner_id": 12948347,
+            "owner_uuid": "c6264be9-fb94-4045-97c3-3eda971f3fa1",
+            "purpose": "Web Application",
+            "resources": [
+              "do:app:237643ad-af23-4c8b-8554-5622d898d335",
+              "do:dbaas:647d3f70-d09f-4950-8a9f-fcb0d8ba3d3a"
+            ],
+            "timeouts": null,
+            "updated_at": "2024-01-07T22:09:32Z"
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiZGVsZXRlIjoxODAwMDAwMDAwMDB9fQ==",
+          "dependencies": [
+            "digitalocean_app.enchantech-codex-app",
+            "digitalocean_container_registry.enchantech-codex-registry",
+            "digitalocean_database_cluster.enchantech-codex-cluster",
+            "null_resource.enchantech-codex-packaging"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "local_file",
+      "name": "env_file",
+      "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "content": "DATABASE_URI=mysql://doadmin:AVNS_mquevJ0IZghOFg3PHXP@enchantech-codex-cluster-tf-do-user-12948347-0.c.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED",
+            "content_base64": null,
+            "content_base64sha256": "sVT96pWiULFAN34iEhIiMqDgTNGf4KHOWXUw4gdLvxo=",
+            "content_base64sha512": "iD9eto+rPVZf403ZsCWAMuCuOcZrnNv5294rU/JuujHV+BcXuVu3TMoXhgz4FwJwKstCouIyV7Jt4bh097RiZQ==",
+            "content_md5": "43a2203cf550e785bcd191bfcba08af0",
+            "content_sha1": "394bf1c73a7c76f3235ef8a84eaceccde9c0e3a1",
+            "content_sha256": "b154fdea95a250b140377e2212122232a0e04cd19fe0a1ce597530e2074bbf1a",
+            "content_sha512": "883f5eb68fab3d565fe34dd9b0258032e0ae39c66b9cdbf9dbde2b53f26eba31d5f81717b95bb74cca17860cf81702702acb42a2e23257b26de1b874f7b46265",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "./.env",
+            "id": "394bf1c73a7c76f3235ef8a84eaceccde9c0e3a1",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": [],
+          "dependencies": [
+            "data.digitalocean_database_cluster.cluster-data",
+            "data.template_file.env",
+            "digitalocean_database_cluster.enchantech-codex-cluster"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "enchantech-codex-packaging",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "3900236375501117998",
+            "triggers": {
+              "run_at": "2024-01-08T20:14:16Z"
+            }
+          },
+          "sensitive_attributes": [],
+          "dependencies": [
+            "digitalocean_container_registry.enchantech-codex-registry"
+          ]
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
