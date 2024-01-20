@@ -2,6 +2,8 @@ package repository
 
 import (
 	"enchantech-codex/src/models"
+	"errors"
+	"fmt"
 	"gorm.io/gorm"
 )
 
@@ -28,8 +30,18 @@ func (fr *FeedRepository) GetPublishers() ([]models.Publisher, error) {
 }
 
 func (fr *FeedRepository) CreateArticles(articles []models.Article) error {
-	result := fr.db.Create(&articles)
-	return result.Error
+	for _, article := range articles {
+		result := fr.db.Create(&article)
+		if result.Error != nil {
+			if errors.Is(result.Error, gorm.ErrRecordNotFound) {
+
+				continue
+			} else {
+				return fmt.Errorf("error creating article: %w", result.Error)
+			}
+		}
+	}
+	return nil
 }
 
 func (fr *FeedRepository) CreatePublisher(publishers []models.Publisher) error {

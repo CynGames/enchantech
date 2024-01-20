@@ -16,3 +16,6 @@ tasks:
   seed:
     cmds:
       - go run src/seed/main.go
+  rss-feed:
+    cmds:
+      - go run src/feed-verification/*.go

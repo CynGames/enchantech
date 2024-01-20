@@ -1,10 +1,1562 @@
 [
-  {
-    "name": "Uber",
-    "rss": "https://www.uber.com/en-US/blog/engineering/rss/"
-  },
-  {
-    "name": "Discord",
-    "rss": "https://discord.com/blog/rss.xml"
-  }
+ {
+  "name": "Ian Hummel",
+  "rss": "https://themodernlife.github.io/feed.xml"
+ },
+ {
+  "name": "BenefitFocus",
+  "rss": "https://www.benefitfocus.com/rss.xml"
+ },
+ {
+  "name": "Jolly Good Code",
+  "rss": "https://jollygoodcode.github.io/atom.xml"
+ },
+ {
+  "name": "Peter Steinberger",
+  "rss": "http://petersteinberger.com/atom.xml"
+ },
+ {
+  "name": "Bootstrap.com",
+  "rss": "https://blog.getbootstrap.com/feed.xml"
+ },
+ {
+  "name": "Curalate",
+  "rss": "http://engineering.curalate.com/feed.xml"
+ },
+ {
+  "name": "Entelo",
+  "rss": "https://sourcecode.entelo.com/feed.xml"
+ },
+ {
+  "name": "RoseHosting",
+  "rss": "https://www.rosehosting.com/blog/feed/"
+ },
+ {
+  "name": "Paul Lewis",
+  "rss": "https://aerotwist.com/blog/feed/"
+ },
+ {
+  "name": "Kinvolk",
+  "rss": "https://kinvolk.io/blog/index.xml"
+ },
+ {
+  "name": "Findmypast",
+  "rss": "https://tech.findmypast.com/feed.xml"
+ },
+ {
+  "name": "Henrik Lau Eriksson",
+  "rss": "https://conductofcode.io/feed.xml"
+ },
+ {
+  "name": "Nick Galbreath",
+  "rss": "https://www.client9.com/index.xml"
+ },
+ {
+  "name": "Amit Merchant",
+  "rss": "https://www.amitmerchant.com/feed.xml"
+ },
+ {
+  "name": "Capgemini",
+  "rss": "https://capgemini.github.io/feed.xml"
+ },
+ {
+  "name": "Domenico Luciani",
+  "rss": "https://domenicoluciani.com/feed.xml"
+ },
+ {
+  "name": "Marco Pivetta",
+  "rss": "https://ocramius.github.io/atom.xml"
+ },
+ {
+  "name": "Toptal",
+  "rss": "https://www.toptal.com/blog.rss"
+ },
+ {
+  "name": "Freeletics",
+  "rss": "https://freeletics.engineering/feed.xml"
+ },
+ {
+  "name": "Yegor Bugayenko",
+  "rss": "https://www.yegor256.com/rss.xml"
+ },
+ {
+  "name": "Miro Cupak",
+  "rss": "https://mirocupak.com/feed.xml"
+ },
+ {
+  "name": "Elegant Code",
+  "rss": "https://elegantcode.com/feed/"
+ },
+ {
+  "name": "Ariya Hidayat",
+  "rss": "https://ariya.io/index.xml"
+ },
+ {
+  "name": "Khan Academy",
+  "rss": "http://engineering.khanacademy.org/rss.xml"
+ },
+ {
+  "name": "Upday",
+  "rss": "https://upday.github.io/feed.xml"
+ },
+ {
+  "name": "Advanced Web Machinery",
+  "rss": "https://advancedweb.hu/atom.xml"
+ },
+ {
+  "name": "K. Harrison",
+  "rss": "https://useyourloaf.com/blog/rss.xml"
+ },
+ {
+  "name": "Dot Dev (.dev)",
+  "rss": "https://dotdev.co/feed/"
+ },
+ {
+  "name": "Lambda the Ultimate",
+  "rss": "http://lambda-the-ultimate.org/rss.xml"
+ },
+ {
+  "name": "HashiCorp",
+  "rss": "https://www.hashicorp.com/blog/feed.xml"
+ },
+ {
+  "name": "Daniel Doubrovkine (dB.)",
+  "rss": "https://code.dblock.org/feed.xml"
+ },
+ {
+  "name": "HubSpot",
+  "rss": "https://product.hubspot.com/blog/rss.xml"
+ },
+ {
+  "name": "HackerEarth",
+  "rss": "http://engineering.hackerearth.com/rss"
+ },
+ {
+  "name": "Small Improvements",
+  "rss": "https://tech.small-improvements.com/rss"
+ },
+ {
+  "name": "Carlos Becker",
+  "rss": "https://carlosbecker.com/index.xml"
+ },
+ {
+  "name": "Cloudflare",
+  "rss": "https://blog.cloudflare.com/rss/"
+ },
+ {
+  "name": "Atomic Object",
+  "rss": "https://spin.atomicobject.com/feed/"
+ },
+ {
+  "name": "Hostinger",
+  "rss": "https://www.hostinger.com/blog/feed/"
+ },
+ {
+  "name": "Brendan Eich",
+  "rss": "https://brendaneich.com/feed/"
+ },
+ {
+  "name": "Sensible",
+  "rss": "http://blog.sensible.io/rss"
+ },
+ {
+  "name": "Rust",
+  "rss": "https://blog.rust-lang.org/feed.xml"
+ },
+ {
+  "name": "Bandcamp",
+  "rss": "https://bandcamptech.wordpress.com/feed/"
+ },
+ {
+  "name": "Real Python",
+  "rss": "https://realpython.com/atom.xml"
+ },
+ {
+  "name": "Federico Tomassetti",
+  "rss": "https://tomassetti.me/feed/"
+ },
+ {
+  "name": "Robert C. Martin",
+  "rss": "http://blog.cleancoder.com/atom.xml"
+ },
+ {
+  "name": "Ole Begemann",
+  "rss": "https://oleb.net/blog/atom.xml"
+ },
+ {
+  "name": "Dean Hume",
+  "rss": "https://deanhume.com/rss/"
+ },
+ {
+  "name": "Avenue Code",
+  "rss": "http://blog.avenuecode.com/rss.xml"
+ },
+ {
+  "name": "Lazarus Lazaridis",
+  "rss": "https://iridakos.com/feed.xml"
+ },
+ {
+  "name": "Jesal Gadhia",
+  "rss": "https://jes.al/atom.xml"
+ },
+ {
+  "name": "NPR Apps",
+  "rss": "http://blog.apps.npr.org/atom.xml"
+ },
+ {
+  "name": "Peter Norvig",
+  "rss": "http://www.norvig.com/rss-feed.xml"
+ },
+ {
+  "name": "Jamis Buck",
+  "rss": "http://feeds.feedburner.com/buckblog"
+ },
+ {
+  "name": "Hypriot",
+  "rss": "https://blog.hypriot.com/index.xml"
+ },
+ {
+  "name": "Oursky",
+  "rss": "https://code.oursky.com/feed/"
+ },
+ {
+  "name": "Dragan Djuric",
+  "rss": "https://dragan.rocks/feed.xml"
+ },
+ {
+  "name": "Gleb Bahmutov",
+  "rss": "https://glebbahmutov.com/blog/atom.xml"
+ },
+ {
+  "name": "Facebook AI Research",
+  "rss": "https://engineering.fb.com/feed/"
+ },
+ {
+  "name": "Zolmeister",
+  "rss": "https://zolmeister.com/feeds/posts/default"
+ },
+ {
+  "name": "Nick Craver",
+  "rss": "https://nickcraver.com/blog/feed.xml"
+ },
+ {
+  "name": "ReactJS News",
+  "rss": "https://reactjsnews.com/feed.xml"
+ },
+ {
+  "name": "Philip Walton",
+  "rss": "https://feeds.feedburner.com/philipwalton"
+ },
+ {
+  "name": "Thoughtbot",
+  "rss": "https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots"
+ },
+ {
+  "name": "Eric Lippert",
+  "rss": "https://ericlippert.com/feed/"
+ },
+ {
+  "name": "Ofer Zelig",
+  "rss": "https://fullstack.info/feed/"
+ },
+ {
+  "name": "Joel Spolsky",
+  "rss": "https://www.joelonsoftware.com/feed/"
+ },
+ {
+  "name": "Andrey Akinshin",
+  "rss": "http://aakinshin.net/en/rss.xml"
+ },
+ {
+  "name": "Josh Haberman",
+  "rss": "http://blog.reverberate.org/feed.xml"
+ },
+ {
+  "name": "Bad Concurrency",
+  "rss": "http://bad-concurrency.blogspot.com/feeds/posts/default"
+ },
+ {
+  "name": "Nordic APIs",
+  "rss": "https://nordicapis.com/feed/"
+ },
+ {
+  "name": "Chris Hager",
+  "rss": "https://www.metachris.com/index.xml"
+ },
+ {
+  "name": "Bohops",
+  "rss": "https://bohops.com/feed/"
+ },
+ {
+  "name": "Life Plus Linux",
+  "rss": "http://lifepluslinux.blogspot.com/feeds/posts/default"
+ },
+ {
+  "name": "Dereuromark",
+  "rss": "https://www.dereuromark.de/feed/"
+ },
+ {
+  "name": "Zach Holman",
+  "rss": "https://zachholman.com/atom.xml"
+ },
+ {
+  "name": "Vinted",
+  "rss": "http://engineering.vinted.com//atom.xml"
+ },
+ {
+  "name": "Yifan Lu",
+  "rss": "http://yifan.lu/feed.xml"
+ },
+ {
+  "name": "Ramon Fried",
+  "rss": "https://nativeguru.wordpress.com/feed/"
+ },
+ {
+  "name": "Asana",
+  "rss": "https://blog.asana.com/feed/"
+ },
+ {
+  "name": "Jerry Gamblin",
+  "rss": "https://jerrygamblin.com/feed/"
+ },
+ {
+  "name": "Henrik Warne",
+  "rss": "https://henrikwarne.com/feed/"
+ },
+ {
+  "name": "Guido van Rossum",
+  "rss": "http://neopythonic.blogspot.com/feeds/posts/default"
+ },
+ {
+  "name": "Michael Crump",
+  "rss": "https://www.michaelcrump.net/feed.xml"
+ },
+ {
+  "name": "Eddie Smith",
+  "rss": "http://www.practicallyefficient.com/feed.xml"
+ },
+ {
+  "name": "Vlad Mihalcea",
+  "rss": "https://vladmihalcea.com/feed/"
+ },
+ {
+  "name": "Monica Dinculescu",
+  "rss": "https://meowni.ca/atom.xml"
+ },
+ {
+  "name": "Rudolf Olah",
+  "rss": "https://neverfriday.com/feed/"
+ },
+ {
+  "name": "Artsy",
+  "rss": "http://artsy.github.io/feed"
+ },
+ {
+  "name": "Nate Berkopec",
+  "rss": "https://www.nateberkopec.com/feed.xml"
+ },
+ {
+  "name": "Zumba",
+  "rss": "http://feeds.feedburner.com/zumba_engineering"
+ },
+ {
+  "name": "Jeremy Kun",
+  "rss": "https://jeremykun.com/feed/"
+ },
+ {
+  "name": "Kirill Shevchenko",
+  "rss": "https://medium.com/feed/@kirill_shevch"
+ },
+ {
+  "name": "Daniel Schmidt",
+  "rss": "https://medium.com/feed/@dschmidt1992"
+ },
+ {
+  "name": "Daily Tech Video",
+  "rss": "http://dailytechvideo.com/feed/"
+ },
+ {
+  "name": "Brujo Benavides",
+  "rss": "https://medium.com/feed/@elbrujohalcon"
+ },
+ {
+  "name": "High Scalability",
+  "rss": "http://feeds.feedburner.com/HighScalability"
+ },
+ {
+  "name": "Robin Ward",
+  "rss": "https://eviltrout.com/feed.xml"
+ },
+ {
+  "name": "Pat Shaughnessy",
+  "rss": "http://feeds2.feedburner.com/patshaughnessy"
+ },
+ {
+  "name": "Klipse",
+  "rss": "http://blog.klipse.tech//feed.xml"
+ },
+ {
+  "name": "Jake Yesbeck",
+  "rss": "http://jakeyesbeck.com/atom.xml"
+ },
+ {
+  "name": "Target",
+  "rss": "https://target.github.io/feed.xml"
+ },
+ {
+  "name": "John Wittenauer",
+  "rss": "https://www.johnwittenauer.net/rss/"
+ },
+ {
+  "name": "Mark Seaborn",
+  "rss": "http://lackingrhoticity.blogspot.com/feeds/posts/default"
+ },
+ {
+  "name": "GitHub",
+  "rss": "https://githubengineering.com/atom.xml"
+ },
+ {
+  "name": "Azavea",
+  "rss": "https://www.azavea.com/blog/category/software-development/rss"
+ },
+ {
+  "name": "GameChanger",
+  "rss": "http://tech.gc.com/atom.xml"
+ },
+ {
+  "name": "Speedledger",
+  "rss": "http://engineering.speedledger.com/feed/"
+ },
+ {
+  "name": "Axel Rauschmayer",
+  "rss": "http://feeds.feedburner.com/2ality"
+ },
+ {
+  "name": "Paul Irish",
+  "rss": "https://feeds.feedburner.com/paul-irish"
+ },
+ {
+  "name": "Housing.com",
+  "rss": "https://medium.com/feed/engineering-housing"
+ },
+ {
+  "name": "Twitch",
+  "rss": "https://medium.com/feed/twitch-news/tagged/engineering"
+ },
+ {
+  "name": "Chris Wellons",
+  "rss": "http://nullprogram.com/feed/"
+ },
+ {
+  "name": "David Walsh",
+  "rss": "https://davidwalsh.name/feed/atom"
+ },
+ {
+  "name": "Pamela Fox",
+  "rss": "http://blog.pamelafox.org/feeds/posts/default"
+ },
+ {
+  "name": "GIPHY",
+  "rss": "https://engineering.giphy.com/rss"
+ },
+ {
+  "name": "MapTiler",
+  "rss": "https://www.maptiler.com/blog/feed/posts.xml"
+ },
+ {
+  "name": "The Coded Self",
+  "rss": "https://thecodedself.github.io/feed.xml"
+ },
+ {
+  "name": "Riot Games",
+  "rss": "https://engineering.riotgames.com/rss.xml"
+ },
+ {
+  "name": "Martin Fowler",
+  "rss": "https://martinfowler.com/feed.atom"
+ },
+ {
+  "name": "Marek Majkowski",
+  "rss": "https://idea.popcount.org/rss.xml"
+ },
+ {
+  "name": "Evil Martians",
+  "rss": "https://evilmartians.com/chronicles.atom"
+ },
+ {
+  "name": "Hashnode",
+  "rss": "https://engineering.hashnode.com/rss.xml"
+ },
+ {
+  "name": "Jay Fields",
+  "rss": "http://blog.jayfields.com/feeds/posts/default"
+ },
+ {
+  "name": "Josh Sherman",
+  "rss": "https://joshtronic.com/atom.xml"
+ },
+ {
+  "name": "Bigcommerce",
+  "rss": "https://www.bigeng.io/rss/"
+ },
+ {
+  "name": "Juri Strumpflohner",
+  "rss": "https://feeds.feedburner.com/juristrumpflohner"
+ },
+ {
+  "name": "Teamwork",
+  "rss": "https://engineroom.teamwork.com/feed"
+ },
+ {
+  "name": "Pony Foo",
+  "rss": "https://feeds.feedburner.com/ponyfoo"
+ },
+ {
+  "name": "Codemancers",
+  "rss": "https://crypt.codemancers.com/index.xml"
+ },
+ {
+  "name": "Stanko Tadić",
+  "rss": "https://muffinman.io/atom.xml"
+ },
+ {
+  "name": "Eventbrite",
+  "rss": "https://www.eventbrite.com/engineering/feed/"
+ },
+ {
+  "name": "Timescale",
+  "rss": "https://blog.timescale.com/feed"
+ },
+ {
+  "name": "Made Tech",
+  "rss": "http://www.madetech.com/feed"
+ },
+ {
+  "name": "Stephen Colebourne",
+  "rss": "http://blog.joda.org/feeds/posts/default"
+ },
+ {
+  "name": "Bjørn Johansen",
+  "rss": "https://bjornjohansen.no/feed"
+ },
+ {
+  "name": "CSC - IT Center For Science - Cloud Team",
+  "rss": "https://cloud.blog.csc.fi/feeds/posts/default"
+ },
+ {
+  "name": "Evan Miller",
+  "rss": "http://www.evanmiller.org/news.xml"
+ },
+ {
+  "name": "Wojtek Gawroński",
+  "rss": "http://www.afronski.pl/feed.xml"
+ },
+ {
+  "name": "Jacopo Tarantino",
+  "rss": "https://jack.ofspades.com/rss/index.html"
+ },
+ {
+  "name": "Blender",
+  "rss": "https://code.blender.org/rss"
+ },
+ {
+  "name": "Okta",
+  "rss": "https://developer.okta.com/feed.xml"
+ },
+ {
+  "name": "Brandon Rhodes",
+  "rss": "http://rhodesmill.org/brandon/feed"
+ },
+ {
+  "name": "Galois",
+  "rss": "https://galois.com/feed/"
+ },
+ {
+  "name": "Red",
+  "rss": "https://www.red-lang.org/feeds/posts/default"
+ },
+ {
+  "name": "Steve Yegge",
+  "rss": "https://steve-yegge.blogspot.com/feeds/posts/default"
+ },
+ {
+  "name": "Wingify",
+  "rss": "http://engineering.wingify.com/atom.xml"
+ },
+ {
+  "name": "Shyp",
+  "rss": "https://medium.com/feed/shyp-engineering"
+ },
+ {
+  "name": "Square",
+  "rss": "https://medium.com/feed/square-corner-blog"
+ },
+ {
+  "name": "Wemake.services",
+  "rss": "https://medium.com/feed/wemake-services"
+ },
+ {
+  "name": "RetailMeNot",
+  "rss": "https://medium.com/feed/retailmenot-engineering"
+ },
+ {
+  "name": "Guardian",
+  "rss": "https://www.theguardian.com/info/series/digital-blog/rss"
+ },
+ {
+  "name": "Facebook",
+  "rss": "https://code.fb.com/feed/"
+ },
+ {
+  "name": "Zoosk",
+  "rss": "https://medium.com/feed/zoosk-engineering"
+ },
+ {
+  "name": "HomeAway",
+  "rss": "https://medium.com/feed/homeaway-tech-blog"
+ },
+ {
+  "name": "JobTeaser",
+  "rss": "https://medium.com/feed/jobteaser-dev-team"
+ },
+ {
+  "name": "Helpshift",
+  "rss": "https://medium.com/feed/helpshift-engineering"
+ },
+ {
+  "name": "Vena Solutions",
+  "rss": "https://engineering.vena.io/rss/"
+ },
+ {
+  "name": "SurveyMonkey",
+  "rss": "https://www.surveymonkey.com/feed/"
+ },
+ {
+  "name": "Bazaarvoice",
+  "rss": "https://blog.developer.bazaarvoice.com/feed/"
+ },
+ {
+  "name": "Vanilla Java",
+  "rss": "http://vanillajava.blogspot.com/feeds/posts/default"
+ },
+ {
+  "name": "Localytics",
+  "rss": "https://eng.localytics.com/rss/"
+ },
+ {
+  "name": "Etsy",
+  "rss": "https://codeascraft.com/feed/"
+ },
+ {
+  "name": "Oona Räisänen",
+  "rss": "http://www.windytan.com/feeds/posts/default"
+ },
+ {
+  "name": "WePay",
+  "rss": "https://wecode.wepay.com/feed.xml"
+ },
+ {
+  "name": "Miguel Quinones",
+  "rss": "https://www.miqu.me/atom.xml"
+ },
+ {
+  "name": "Elastic",
+  "rss": "https://www.elastic.co/blog/feed"
+ },
+ {
+  "name": "Skyscanner",
+  "rss": "https://medium.com/feed/@SkyscannerEng"
+ },
+ {
+  "name": "Gusto",
+  "rss": "https://engineering.gusto.com/rss/"
+ },
+ {
+  "name": "Mykhailo Kozik",
+  "rss": "http://feeds.feedburner.com/mishadoff"
+ },
+ {
+  "name": "Postmates",
+  "rss": "https://medium.com/feed/postmates-blog/tagged/engineering"
+ },
+ {
+  "name": "YLD!",
+  "rss": "https://medium.com/feed/yld-engineering-blog"
+ },
+ {
+  "name": "Strava",
+  "rss": "https://medium.com/feed/strava-engineering"
+ },
+ {
+  "name": "BBC",
+  "rss": "https://medium.com/feed/bbc-design-engineering"
+ },
+ {
+  "name": "Zendesk",
+  "rss": "https://medium.com/feed/zendesk-engineering"
+ },
+ {
+  "name": "Postman",
+  "rss": "https://medium.com/feed/better-practices"
+ },
+ {
+  "name": "Yammer",
+  "rss": "https://medium.com/feed/yammer-engineering"
+ },
+ {
+  "name": "Latacora",
+  "rss": "https://latacora.micro.blog/feed.xml"
+ },
+ {
+  "name": "Criteo",
+  "rss": "https://medium.com/feed/criteo-labs"
+ },
+ {
+  "name": "Netflix",
+  "rss": "https://medium.com/feed/netflix-techblog"
+ },
+ {
+  "name": "Airbnb",
+  "rss": "https://medium.com/feed/airbnb-engineering"
+ },
+ {
+  "name": "Pinterest",
+  "rss": "https://medium.com/feed/@Pinterest_Engineering"
+ },
+ {
+  "name": "Remind",
+  "rss": "http://engineering.remind.com/feed.xml"
+ },
+ {
+  "name": "Dave Cheney",
+  "rss": "https://dave.cheney.net/feed"
+ },
+ {
+  "name": "Google Online Security",
+  "rss": "https://security.googleblog.com/feeds/posts/default"
+ },
+ {
+  "name": "Deliveroo",
+  "rss": "http://deliveroo.engineering/feed.xml"
+ },
+ {
+  "name": "Wilfred Hughes",
+  "rss": "http://www.wilfred.me.uk/rss.xml"
+ },
+ {
+  "name": "Matt Cutts",
+  "rss": "https://www.mattcutts.com/blog/feed/"
+ },
+ {
+  "name": "Hashrocket",
+  "rss": "https://hashrocket.com/blog.rss"
+ },
+ {
+  "name": "Instagram",
+  "rss": "https://instagram-engineering.com/feed"
+ },
+ {
+  "name": "The Daily WTF",
+  "rss": "http://thedailywtf.com/rss"
+ },
+ {
+  "name": "Microsoft Edge",
+  "rss": "https://blogs.windows.com/msedgedev/rss"
+ },
+ {
+  "name": "Spotify",
+  "rss": "https://labs.spotify.com/feed/"
+ },
+ {
+  "name": "Android",
+  "rss": "https://android-developers.googleblog.com/feeds/posts/default"
+ },
+ {
+  "name": "Databricks",
+  "rss": "https://databricks.com/feed"
+ },
+ {
+  "name": "Nelson Elhage",
+  "rss": "https://blog.nelhage.com/atom.xml"
+ },
+ {
+  "name": "Srinivas Tamada",
+  "rss": "https://www.9lessons.info/feeds/posts/default"
+ },
+ {
+  "name": "Chartbeat",
+  "rss": "http://engineering.chartbeat.com/feed/"
+ },
+ {
+  "name": "Eli Bendersky",
+  "rss": "https://eli.thegreenplace.net/feeds/all.atom.xml"
+ },
+ {
+  "name": "IPFS",
+  "rss": "https://ipfs.io/blog/index.xml"
+ },
+ {
+  "name": "Idontgetoutmuch's Weblog",
+  "rss": "https://idontgetoutmuch.wordpress.com/feed/"
+ },
+ {
+  "name": "Daily JS",
+  "rss": "https://medium.com/feed/dailyjs"
+ },
+ {
+  "name": "Expedia",
+  "rss": "https://medium.com/feed/expedia-group-tech"
+ },
+ {
+  "name": "Feedzai",
+  "rss": "https://medium.com/feed/feedzaitech"
+ },
+ {
+  "name": "eFounders",
+  "rss": "https://medium.com/feed/unexpected-token"
+ },
+ {
+  "name": "Eric Elliot",
+  "rss": "https://medium.com/feed/javascript-scene"
+ },
+ {
+  "name": "Flickr",
+  "rss": "http://code.flickr.net/feed/"
+ },
+ {
+  "name": "Evan Jones",
+  "rss": "http://www.evanjones.ca/index.rss"
+ },
+ {
+  "name": "Mixpanel",
+  "rss": "https://engineering.mixpanel.com/feed/"
+ },
+ {
+  "name": "Jonathan Dekhtiar",
+  "rss": "http://www.born2data.com/feed_atom.xml"
+ },
+ {
+  "name": "AWS",
+  "rss": "https://aws.amazon.com/blogs/aws/feed/"
+ },
+ {
+  "name": "Grab",
+  "rss": "http://engineering.grab.com/feed.xml"
+ },
+ {
+  "name": "William Kennedy",
+  "rss": "https://www.ardanlabs.com/blog/index.xml"
+ },
+ {
+  "name": "Auth0",
+  "rss": "https://auth0.com/blog/rss.xml"
+ },
+ {
+  "name": "Ebay",
+  "rss": "https://www.ebayinc.com/stories/blogs/tech/rss/ "
+ },
+ {
+  "name": "Jon Skeet",
+  "rss": "https://codeblog.jonskeet.uk/feed/"
+ },
+ {
+  "name": "Kotlin",
+  "rss": "https://blog.jetbrains.com/kotlin/feed/"
+ },
+ {
+  "name": "Novoda",
+  "rss": "https://blog.novoda.com/rss/"
+ },
+ {
+  "name": "Undocumented Matlab",
+  "rss": "https://undocumentedmatlab.com/feed"
+ },
+ {
+  "name": "Petr Mitrichev",
+  "rss": "https://petr-mitrichev.blogspot.com/feeds/posts/default"
+ },
+ {
+  "name": "Radim Řehůřek",
+  "rss": "https://radimrehurek.com/feed/"
+ },
+ {
+  "name": "Mike Ash",
+  "rss": "http://www.mikeash.com/pyblog/rss.py"
+ },
+ {
+  "name": "Dennis Felsing",
+  "rss": "https://hookrace.net/blog/feed/"
+ },
+ {
+  "name": "Blundell's Android Tutorials",
+  "rss": "http://blog.blundellapps.co.uk/feed/"
+ },
+ {
+  "name": "Twilio",
+  "rss": "https://www.twilio.com/blog/feed"
+ },
+ {
+  "name": "React Native",
+  "rss": "https://facebook.github.io/react-native/blog/atom.xml"
+ },
+ {
+  "name": "React",
+  "rss": "https://reactjs.org/feed.xml"
+ },
+ {
+  "name": "Addy Osmani",
+  "rss": "http://addyosmani.com/rss.xml"
+ },
+ {
+  "name": "Filippo Valsorda",
+  "rss": "https://blog.filippo.io/rss/"
+ },
+ {
+  "name": "Matthew Green",
+  "rss": "https://blog.cryptographyengineering.com/feed/"
+ },
+ {
+  "name": "Brandwatch",
+  "rss": "https://engineering.brandwatch.com/rss/"
+ },
+ {
+  "name": "Raymond Chen",
+  "rss": "https://blogs.msdn.microsoft.com/oldnewthing/feed"
+ },
+ {
+  "name": "Paul Graham",
+  "rss": "http://www.aaronsw.com/2002/feeds/pgessays.rss"
+ },
+ {
+  "name": "ThoughtWorks",
+  "rss": "https://www.thoughtworks.com/rss/insights.xml"
+ },
+ {
+  "name": "Shopify",
+  "rss": "https://shopify.engineering/blog.atom"
+ },
+ {
+  "name": "Microsoft Python Engineering",
+  "rss": "http://blogs.msdn.microsoft.com/pythonengineering/feed/"
+ },
+ {
+  "name": "Tumblr",
+  "rss": "https://engineering.tumblr.com/rss"
+ },
+ {
+  "name": "Arkency",
+  "rss": "http://blog.arkency.com/atom.xml"
+ },
+ {
+  "name": "Crowdfire",
+  "rss": "https://crowdfire.engineering/feed"
+ },
+ {
+  "name": "DigitalOcean",
+  "rss": "https://blog.digitalocean.com/rss/"
+ },
+ {
+  "name": "Firmafon",
+  "rss": "https://dev.firmafon.dk/blog/feed.xml"
+ },
+ {
+  "name": "Swiggy",
+  "rss": "https://bytes.swiggy.com/feed"
+ },
+ {
+  "name": "VersionEye",
+  "rss": "https://blog.versioneye.com/feed/"
+ },
+ {
+  "name": "Yelp",
+  "rss": "https://engineeringblog.yelp.com/feed.xml"
+ },
+ {
+  "name": "RocksDB",
+  "rss": "http://rocksdb.org/feed.xml"
+ },
+ {
+  "name": "Medium",
+  "rss": "https://medium.engineering/feed"
+ },
+ {
+  "name": "Edward Faulkner",
+  "rss": "https://eaf4.com/rss"
+ },
+ {
+  "name": "Babbel",
+  "rss": "https://blog.babbel.com/en/feed/"
+ },
+ {
+  "name": "Sky Betting \u0026 Gaming",
+  "rss": "https://technology.skybettingandgaming.com/feed.xml"
+ },
+ {
+  "name": "Raymond Hettinger",
+  "rss": "https://rhettinger.wordpress.com/feed/"
+ },
+ {
+  "name": "Slack",
+  "rss": "https://slack.engineering/feed"
+ },
+ {
+  "name": "Kickstarter",
+  "rss": "https://kickstarter.engineering/feed"
+ },
+ {
+  "name": "Nikola Brežnjak",
+  "rss": "http://www.nikola-breznjak.com/blog/feed/atom/"
+ },
+ {
+  "name": "Commercetools",
+  "rss": "https://techblog.commercetools.com/feed"
+ },
+ {
+  "name": "Crystal",
+  "rss": "https://crystal-lang.org/feed.xml"
+ },
+ {
+  "name": "MemSQL",
+  "rss": "http://blog.memsql.com/feed/"
+ },
+ {
+  "name": "Itamar Turner-Trauring",
+  "rss": "https://codewithoutrules.com/atom.xml"
+ },
+ {
+  "name": "Piotr Pasich",
+  "rss": "http://piotrpasich.com/feed/"
+ },
+ {
+  "name": "T.J. Maher",
+  "rss": "http://www.tjmaher.com/feeds/posts/default"
+ },
+ {
+  "name": "Credit Karma",
+  "rss": "https://engineering.creditkarma.com/feed"
+ },
+ {
+  "name": "OpenDNS",
+  "rss": "https://umbrella.cisco.com/blog/feed/"
+ },
+ {
+  "name": "Huon Wilson",
+  "rss": "http://huonw.github.io/blog/atom.xml"
+ },
+ {
+  "name": "Stitch Fix",
+  "rss": "https://multithreaded.stitchfix.com/feed.xml"
+ },
+ {
+  "name": "Jeff Atwood",
+  "rss": "http://feeds.feedburner.com/codinghorror"
+ },
+ {
+  "name": "Heroku",
+  "rss": "https://blog.heroku.com/engineering/feed"
+ },
+ {
+  "name": "Confluent",
+  "rss": "https://www.confluent.io/feed/"
+ },
+ {
+  "name": "Twitter",
+  "rss": "https://blog.twitter.com/engineering/feed"
+ },
+ {
+  "name": "Red Hat",
+  "rss": "https://developers.redhat.com/blog/feed/atom/"
+ },
+ {
+  "name": "Salesforce",
+  "rss": "https://developer.salesforce.com/blogs/feed"
+ },
+ {
+  "name": "Erik Runyon",
+  "rss": "https://erikrunyon.com/feed.xml"
+ },
+ {
+  "name": "Rob Allen",
+  "rss": "https://akrabat.com/feed/"
+ },
+ {
+  "name": "Dan Luu",
+  "rss": "https://danluu.com/atom.xml"
+ },
+ {
+  "name": "Stefan Parker",
+  "rss": "http://codebeforethehorse.tumblr.com/rss"
+ },
+ {
+  "name": "Stack Abuse",
+  "rss": "http://stackabuse.com/rss/"
+ },
+ {
+  "name": "Finn.no",
+  "rss": "http://tech.finn.no/atom.xml"
+ },
+ {
+  "name": "Yahoo",
+  "rss": "https://yahooeng.tumblr.com/rss"
+ },
+ {
+  "name": "Alex Russell",
+  "rss": "https://infrequently.org/feed/"
+ },
+ {
+  "name": "BitTorrent",
+  "rss": "https://engineering.bittorrent.com/feed/"
+ },
+ {
+  "name": "Wealthfront",
+  "rss": "http://eng.wealthfront.com/feed/"
+ },
+ {
+  "name": "Chen Hui Jing",
+  "rss": "https://www.chenhuijing.com/feed.xml"
+ },
+ {
+  "name": "Atlassian",
+  "rss": "https://developer.atlassian.com/blog/feed.xml"
+ },
+ {
+  "name": "Codrops",
+  "rss": "https://tympanus.net/codrops/rss"
+ },
+ {
+  "name": "Mozilla Automation Team",
+  "rss": "http://planet.mozilla.org/ateam/atom.xml"
+ },
+ {
+  "name": "Just Eat",
+  "rss": "https://tech.just-eat.com/feed/"
+ },
+ {
+  "name": "Mozilla Release Engineering",
+  "rss": "http://planet.mozilla.org/releng/atom.xml"
+ },
+ {
+  "name": "Larry Land",
+  "rss": "http://lg.io/feed.xml"
+ },
+ {
+  "name": "Drivy",
+  "rss": "https://drivy.engineering/feed.xml"
+ },
+ {
+  "name": "Tikhon Jelvis",
+  "rss": "http://jelv.is/blog/rss.xml"
+ },
+ {
+  "name": "Scott Hanselman",
+  "rss": "http://feeds.hanselman.com/ScottHanselman"
+ },
+ {
+  "name": "jOOQ",
+  "rss": "https://blog.jooq.org/feed/"
+ },
+ {
+  "name": ".NET",
+  "rss": "https://blogs.msdn.microsoft.com/dotnet/feed/"
+ },
+ {
+  "name": "Blake Erickson",
+  "rss": "https://blog.blakeerickson.com/feed.xml"
+ },
+ {
+  "name": "Mozilla Hacks",
+  "rss": "https://hacks.mozilla.org/feed/"
+ },
+ {
+  "name": "Mary Rose Cook",
+  "rss": "https://maryrosecook.com/blog/feed.xml"
+ },
+ {
+  "name": "theScore",
+  "rss": "http://techblog.thescore.com/feed.xml"
+ },
+ {
+  "name": "Jessie Frazelle",
+  "rss": "https://blog.jessfraz.com/index.xml"
+ },
+ {
+  "name": "Clever",
+  "rss": "https://engineering.clever.com/rss"
+ },
+ {
+  "name": "Nicolas Liochon",
+  "rss": "http://blog.thislongrun.com/feeds/posts/default"
+ },
+ {
+  "name": "Freek Van der Herten",
+  "rss": "https://murze.be/feed"
+ },
+ {
+  "name": "Codelitt",
+  "rss": "https://www.codelitt.com/blog/rss"
+ },
+ {
+  "name": "CockroachDB",
+  "rss": "https://www.cockroachlabs.com/blog/index.xml"
+ },
+ {
+  "name": "Honeybadger",
+  "rss": "http://blog.honeybadger.io/feed.xml"
+ },
+ {
+  "name": "Marc Plano-Lesay",
+  "rss": "https://enoent.fr/atom.xml"
+ },
+ {
+  "name": "Benchling",
+  "rss": "https://benchling.engineering/feed"
+ },
+ {
+  "name": "New York Times",
+  "rss": "https://open.nytimes.com/feed"
+ },
+ {
+  "name": "Kevin Burke",
+  "rss": "https://kev.inburke.com/feed/"
+ },
+ {
+  "name": "Soundcloud",
+  "rss": "https://developers.soundcloud.com/blog.rss"
+ },
+ {
+  "name": "Laravel",
+  "rss": "https://feed.laravel-news.com/"
+ },
+ {
+  "name": "HireArt",
+  "rss": "http://code.hireart.com/feed.xml"
+ },
+ {
+  "name": "XING",
+  "rss": "https://tech.xing.com/feed"
+ },
+ {
+  "name": "Jane Street",
+  "rss": "https://blogs.janestreet.com/feed.xml"
+ },
+ {
+  "name": "Guilherme Rodrigues",
+  "rss": "https://firstdoit.com/feed"
+ },
+ {
+  "name": "Nic Raboy",
+  "rss": "https://www.thepolyglotdeveloper.com/blog/index.xml"
+ },
+ {
+  "name": "Lyft",
+  "rss": "https://eng.lyft.com/feed"
+ },
+ {
+  "name": "Graham King",
+  "rss": "https://www.darkcoding.net/feed/"
+ },
+ {
+  "name": "8th Light",
+  "rss": "https://8thlight.com/blog/feed/atom.xml"
+ },
+ {
+  "name": "Scott Johnson",
+  "rss": "http://fuzzyblog.io//blog/feed.xml"
+ },
+ {
+  "name": "Jake Wharton",
+  "rss": "http://jakewharton.com/feed.xml"
+ },
+ {
+  "name": "Deezer",
+  "rss": "https://deezer.io/feed"
+ },
+ {
+  "name": "Michael Herman",
+  "rss": "http://mherman.org/feed.xml"
+ },
+ {
+  "name": "Trivago",
+  "rss": "https://tech.trivago.com/index.xml"
+ },
+ {
+  "name": "Alan Storm",
+  "rss": "https://alanstorm.com/feed/feed.xml"
+ },
+ {
+  "name": "Indeed",
+  "rss": "http://engineering.indeedblog.com/feed/"
+ },
+ {
+  "name": "Codementor",
+  "rss": "https://www.codementor.io/tutorial/feed"
+ },
+ {
+  "name": "Thomas Young",
+  "rss": "http://upcoder.com/feed"
+ },
+ {
+  "name": "PicCollage",
+  "rss": "https://tech.pic-collage.com/feed"
+ },
+ {
+  "name": "CodeName One",
+  "rss": "http://www.codenameone.com/feed.xml"
+ },
+ {
+  "name": "Ben McCormick",
+  "rss": "https://benmccormick.org/feed.json"
+ },
+ {
+  "name": "Zendesk(old)",
+  "rss": "https://developerblog.zendesk.com/feed"
+ },
+ {
+  "name": "Brendan Gregg",
+  "rss": "http://www.brendangregg.com/blog/rss.xml"
+ },
+ {
+  "name": "Joe Nelson",
+  "rss": "https://begriffs.com/atom.xml"
+ },
+ {
+  "name": "Matt Warren",
+  "rss": "http://mattwarren.org/atom.xml"
+ },
+ {
+  "name": "Marcelo Rinesi",
+  "rss": "https://blog.rinesi.com/feed/"
+ },
+ {
+  "name": "Go",
+  "rss": "https://blog.golang.org/feed.atom"
+ },
+ {
+  "name": "ShowMax",
+  "rss": "https://tech.showmax.com/feed.xml"
+ },
+ {
+  "name": "Abu Ashraf Masnun",
+  "rss": "http://masnun.com/feed"
+ },
+ {
+  "name": "Doximity",
+  "rss": "https://engineering.doximity.com/feed"
+ },
+ {
+  "name": "Moove-it",
+  "rss": "https://blog.moove-it.com/rss"
+ },
+ {
+  "name": "Squarespace",
+  "rss": "https://engineering.squarespace.com/blog?format=RSS"
+ },
+ {
+  "name": "Nvidia",
+  "rss": "https://blogs.nvidia.com/feed/"
+ },
+ {
+  "name": "Reginald Braithwaite",
+  "rss": "http://raganwald.com/atom.xml"
+ },
+ {
+  "name": "Ariejan de Vroom",
+  "rss": "https://www.devroom.io/index.xml"
+ },
+ {
+  "name": "Ruslan Spivak",
+  "rss": "https://ruslanspivak.com/feeds/all.atom.xml"
+ },
+ {
+  "name": "Dennis Yurichev",
+  "rss": "https://yurichev.com/blog/rss.xml"
+ },
+ {
+  "name": "Federico Cargnelutti",
+  "rss": "https://blog.fedecarg.com/feed/"
+ },
+ {
+  "name": "Nextdoor",
+  "rss": "https://engblog.nextdoor.com/feed"
+ },
+ {
+  "name": "Jonathan Snook",
+  "rss": "https://snook.ca/jonathan/index.rdf"
+ },
+ {
+  "name": "Soshace",
+  "rss": "https://blog.soshace.com/en/feed/"
+ },
+ {
+  "name": "Armin Ronacher",
+  "rss": "http://lucumr.pocoo.org/feed.atom"
+ },
+ {
+  "name": "Sam Saffron",
+  "rss": "http://samsaffron.com/posts.rss"
+ },
+ {
+  "name": "Prezi",
+  "rss": "https://engineering.prezi.com/feed"
+ },
+ {
+  "name": "Swift",
+  "rss": "https://developer.apple.com/swift/blog/news.rss"
+ },
+ {
+  "name": "Jeff Preshing",
+  "rss": "http://preshing.com/feed"
+ },
+ {
+  "name": "Kogan.com",
+  "rss": "https://devblog.kogan.com/blog?format=RSS"
+ },
+ {
+  "name": "Lea Verou",
+  "rss": "http://lea.verou.me/feed/"
+ },
+ {
+  "name": "Peteris Krumins",
+  "rss": "http://www.catonmat.net/feed/"
+ },
+ {
+  "name": "VTS",
+  "rss": "https://buildingvts.com/feed"
+ },
+ {
+  "name": "James Hague",
+  "rss": "http://prog21.dadgum.com/atom.xml"
+ },
+ {
+  "name": "Antirez",
+  "rss": "http://antirez.com/rss"
+ },
+ {
+  "name": "AdRoll",
+  "rss": "http://tech.adroll.com/feed.xml"
+ },
+ {
+  "name": "Ilya Grigorik",
+  "rss": "https://www.igvita.com/feed/"
+ },
+ {
+  "name": "Universe",
+  "rss": "https://engineering.universe.com/feed"
+ },
+ {
+  "name": "Justin Weiss",
+  "rss": "https://www.justinweiss.com/atom.xml"
+ },
+ {
+  "name": "Robin Wilson",
+  "rss": "http://blog.rtwilson.com/feed/"
+ },
+ {
+  "name": "Bryan Cantrill",
+  "rss": "http://dtrace.org/blogs/bmc/feed/"
+ },
+ {
+  "name": "Aaron Patterson",
+  "rss": "http://tenderlovemaking.com/atom.xml"
+ },
+ {
+  "name": "Kyle Kingsbury",
+  "rss": "https://aphyr.com/posts.atom"
+ },
+ {
+  "name": "Matt Might",
+  "rss": "http://matt.might.net/articles/feed.rss"
+ },
+ {
+  "name": "Stackshare",
+  "rss": "https://stackshare.io/featured-posts.atom"
+ },
+ {
+  "name": "Dropbox",
+  "rss": "https://blogs.dropbox.com/tech/feed/"
+ },
+ {
+  "name": "Instacart",
+  "rss": "https://tech.instacart.com/feed"
+ },
+ {
+  "name": "Stripe",
+  "rss": "https://stripe.com/blog/feed.rss"
+ },
+ {
+  "name": "Mike Fogus",
+  "rss": "http://blog.fogus.me/feed/"
+ },
+ {
+  "name": "Schakko",
+  "rss": "https://schakko.de/feed"
+ },
+ {
+  "name": "NSHipster",
+  "rss": "https://nshipster.com/feed.xml"
+ },
+ {
+  "name": "Steve Bellovin",
+  "rss": "https://www.cs.columbia.edu/~smb/blog/control/blog.xml"
+ },
+ {
+  "name": "Paweł Chudzik",
+  "rss": "https://blog.pchudzik.com/index.xml"
+ },
+ {
+  "name": "Junior Grossi",
+  "rss": "https://blog.jgrossi.com/feed/"
+ },
+ {
+  "name": "UpGrad",
+  "rss": "https://engineering.upgrad.com/feed"
+ },
+ {
+  "name": "Julia Evans",
+  "rss": "https://jvns.ca/atom.xml"
+ },
+ {
+  "name": "SitePoint",
+  "rss": "https://www.sitepoint.com/feed/"
+ },
+ {
+  "name": "REA Group",
+  "rss": "https://www.rea-group.com/category/tech/feed/"
+ },
+ {
+  "name": "Tania Rascia",
+  "rss": "https://tania.dev/rss.xml"
+ },
+ {
+  "name": "Envoy",
+  "rss": "https://envoy.engineering/feed"
+ },
+ {
+  "name": "Cloudera",
+  "rss": "https://blog.cloudera.com/feed/"
+ },
+ {
+  "name": "Postmark",
+  "rss": "https://postmarkapp.com/blog/feed.atom"
+ },
+ {
+  "name": "Mesosphere",
+  "rss": "https://mesosphere.com/feed/"
+ },
+ {
+  "name": "OLX",
+  "rss": "https://tech.olx.com/feed"
+ },
+ {
+  "name": "Sift Science",
+  "rss": "https://blog.siftscience.com/feed/"
+ },
+ {
+  "name": "Ray Wenderlich",
+  "rss": "https://www.raywenderlich.com/rss"
+ },
+ {
+  "name": "Jan Lelis",
+  "rss": "https://idiosyncratic-ruby.com/feed.xml"
+ }
 ]

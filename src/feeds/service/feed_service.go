@@ -7,7 +7,10 @@ import (
 	"fmt"
 	"github.com/mmcdole/gofeed"
 	"golang.org/x/net/html"
+	"io"
 	"net/http"
+	"net/url"
+	"strings"
 	"sync"
 	"time"
 )
@@ -26,90 +29,30 @@ func (fs *FeedService) GetArticles() ([]models.Article, error) {
 	return fs.feedRepo.GetArticles()
 }
 
-//func (fs *FeedService) UpdateRSSFeed(feed *gofeed.Feed, publisher *models.Publisher) error {
-//	articles := make([]models.Article, 0)
-//	client := http.Client{Timeout: 30 * time.Second}
-//
-//	batchSize := 25
-//	rateLimit := time.Second * 20
-//
-//	println("Parsing feed for publisher:", publisher.Name)
-//	println("Amount of Items to be parsed:", len(feed.Items))
-//
-//	for i, article := range feed.Items {
-//		request, _ := http.NewRequest(http.MethodGet, article.Link, nil)
-//		request.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8")
-//		response, _ := client.Do(request)
-//		node, _ := html.Parse(response.Body)
-//		var properties = make(map[string]string)
-//		utils.GetThumbnailProperties(node, properties)
-//
-//		articles = append(articles, models.Article{
-//			ID:             article.Link,
-//			PublisherID:    publisher.ID,
-//			Title:          properties["og:title"],
-//			Description:    properties["og:description"],
-//			ImageUrl:       properties["og:image"],
-//			ParseAttempted: true,
-//		})
-//
-//		err := response.Body.Close()
-//
-//		if err != nil {
-//			return err
-//		}
-//
-//		if (i+1)%batchSize == 0 {
-//			fmt.Printf("Stalling for timeout...")
-//			fmt.Printf("Current parsed articles: %v from a total of %v\n", len(articles), len(feed.Items))
-//
-//			if len(articles) != len(feed.Items) {
-//				time.Sleep(rateLimit)
-//			}
-//		}
-//	}
-//
-//	fmt.Printf("%v inserted articles \n", len(articles))
-//	err := fs.feedRepo.CreateArticles(articles)
-//
-//	if err != nil {
-//		return err
-//	}
-//	return nil
-//}
-
-func (fs *FeedService) UpdateRSSFeed(feed *gofeed.Feed, publisher *models.Publisher) error {
+func (fs *FeedService) UpdateRSSFeed(feed *gofeed.Feed, publisher *models.Publisher) (error, []models.Article) {
 	println("Parsing feed for publisher:", publisher.Name)
 
 	articles := make([]models.Article, 0)
-	client := http.Client{Timeout: 30 * time.Second}
+	failedArticles := make([]models.Article, 0)
 
-	rateLimit := time.Second * 20
-	batchSize := 25
+	client := http.Client{Timeout: 30 * time.Second}
+	articleChannel := make(chan models.Article, len(feed.Items))
 
 	var waitGroup sync.WaitGroup
 	var mutex sync.Mutex
 
-	//rateLimitChan := make(chan struct{}, batchSize)
-	ticker := time.NewTicker(rateLimit)
-	defer ticker.Stop()
-
-	for i, article := range feed.Items {
+	for _, article := range feed.Items {
 		waitGroup.Add(1)
 
-		println("Parsing article:", article.Link)
-
-		go func(i int, article *gofeed.Item) {
+		go func(article *gofeed.Item) {
 			defer waitGroup.Done()
-			defer func() {
-				if r := recover(); r != nil {
-					fmt.Println("Recovered in f", r)
-				}
-			}()
 
-			// Wait for the ticker before making the request
-			<-ticker.C
-			request, err := http.NewRequest(http.MethodGet, article.Link, nil)
+			articleURL := article.Link
+			if !isURLAbsolute(articleURL) {
+				articleURL = resolveURL(publisher.RSS, articleURL)
+			}
+
+			request, err := http.NewRequest(http.MethodGet, articleURL, nil)
 			if err != nil {
 				utils.ErrorPanicPrinter(err, true)
 				return
@@ -118,10 +61,20 @@ func (fs *FeedService) UpdateRSSFeed(feed *gofeed.Feed, publisher *models.Publis
 			request.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8")
 			response, err := client.Do(request)
 			if err != nil {
-				utils.ErrorPanicPrinter(err, true)
+				if strings.Contains(err.Error(), "no such host") {
+					fmt.Printf("Error: %v, URL: %v\n", err, articleURL)
+					return
+				}
+
+				utils.ErrorPanicPrinter(err, false)
 				return
 			}
-			defer response.Body.Close()
+			defer func(Body io.ReadCloser) {
+				err := Body.Close()
+				if err != nil {
+
+				}
+			}(response.Body)
 
 			node, err := html.Parse(response.Body)
 			if err != nil {
@@ -132,46 +85,58 @@ func (fs *FeedService) UpdateRSSFeed(feed *gofeed.Feed, publisher *models.Publis
 			var properties = make(map[string]string)
 			utils.GetThumbnailProperties(node, properties)
 
-			mutex.Lock()
-
-			articles = append(articles, models.Article{
+			newArticle := models.Article{
 				ID:             article.Link,
 				PublisherID:    publisher.ID,
 				Title:          properties["og:title"],
 				Description:    properties["og:description"],
 				ImageUrl:       properties["og:image"],
 				ParseAttempted: true,
-			})
+			}
 
-			mutex.Unlock()
+			if isResponseEmpty(newArticle, false) {
+				fmt.Printf("Code: %v, Response: %v\n", response.StatusCode, response.Status)
+				fmt.Printf("Failed to parse article: %s, error: %v\n", article.Link, publisher.ID)
+				fmt.Printf("Article: %v\n", newArticle)
 
-			println("ARTICLES: ", articles[i].Description)
-		}(i, article)
-
-		if (i+1)%batchSize == 0 {
-			mutex.Lock()
-			fmt.Printf("Current parsed articles: %v from a total of %v\n", len(articles), len(feed.Items))
-			mutex.Unlock()
-		}
+				failedArticles = append(failedArticles, newArticle)
+			} else {
+				articleChannel <- newArticle
+			}
+		}(article)
 	}
 
-	waitGroup.Wait()
+	go func() {
+		waitGroup.Wait()
+		close(articleChannel)
+	}()
+
+	for article := range articleChannel {
+		mutex.Lock()
+		articles = append(articles, article)
+		mutex.Unlock()
+	}
+
+	if len(articles) == 0 {
+		return nil, failedArticles
+	}
 
 	mutex.Lock()
-	fmt.Printf("%v inserted articles \n", len(articles))
 	err := fs.feedRepo.CreateArticles(articles)
+	fmt.Printf("%v inserted articles \n", len(articles))
 	mutex.Unlock()
 
 	utils.ErrorPanicPrinter(err, true)
 
-	return nil
+	return nil, failedArticles
 }
 
 func (fs *FeedService) GetRSSXMLContent() error {
 	var publishers []models.Publisher
+	var wg sync.WaitGroup
+	var err error
 
-	publishers, err := fs.feedRepo.GetPublishers()
-
+	publishers, err = fs.feedRepo.GetPublishers()
 	if err != nil {
 		println("Error on finding publishers", err.Error())
 		return err
@@ -181,49 +146,150 @@ func (fs *FeedService) GetRSSXMLContent() error {
 	feedParser := gofeed.NewParser()
 
 	for _, publisher := range publishers {
-		request, _ := http.NewRequest(http.MethodGet, publisher.RSS, nil)
-		request.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8")
-		response, err := client.Do(request)
+		wg.Add(1)
 
-		if err != nil {
-			println("Error fetching RSS feed for publisher:", publisher.Name, err.Error())
-			continue
-		}
+		go func(publisher models.Publisher) {
+			defer wg.Done()
 
-		feed, err := feedParser.Parse(response.Body)
+			request, err := http.NewRequest(http.MethodGet, publisher.RSS, nil)
+			if err != nil {
+				println("Error creating request for publisher:", publisher.Name, err.Error())
+				return
+			}
 
-		if err != nil {
-			println("Error parsing feed for publisher:", publisher.Name, err.Error())
-			_ = response.Body.Close()
-			continue
-		}
+			request.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8")
+			response, err := client.Do(request)
+			if err != nil {
+				println("Error fetching RSS feed for publisher:", publisher.Name, err.Error())
+				return
+			}
+			defer func(Body io.ReadCloser) {
+				err := Body.Close()
+				if err != nil {
 
-		_ = response.Body.Close()
+				}
+			}(response.Body)
 
-		fetchedArticles, err := fs.feedRepo.GetArticles()
-		utils.ErrorPanicPrinter(err, true)
+			feed, err := feedParser.Parse(response.Body)
+			if err != nil {
+				println("Error parsing feed for publisher:", publisher.Name, err.Error())
+				return
+			}
 
-		for _, article := range fetchedArticles {
-			for y, item := range feed.Items {
-				if article.ID == item.Link {
-					feed.Items = remove(feed.Items, y)
+			fetchedArticles, err := fs.feedRepo.GetArticles()
+			if err != nil {
+				utils.ErrorPanicPrinter(err, true)
+				return
+			}
+
+			for _, article := range fetchedArticles {
+				for y, item := range feed.Items {
+					if article.ID == item.Link {
+						feed.Items = remove(feed.Items, y)
+						break
+					}
 				}
 			}
-		}
 
-		if len(feed.Items) == 0 {
-			println("No new articles for publisher:", publisher.Name)
-			continue
-		}
+			if len(feed.Items) == 0 {
+				println("No new articles for publisher:", publisher.Name)
+				return
+			}
 
-		if err := fs.UpdateRSSFeed(feed, &publisher); err != nil {
-			println("Error updating from feed for publisher: ", publisher.Name, err.Error())
-		}
+			if err, _ := fs.UpdateRSSFeed(feed, &publisher); err != nil {
+				println("Error updating from feed for publisher: ", publisher.Name, err.Error())
+			}
+		}(publisher)
 	}
+
+	wg.Wait()
 
 	return nil
 }
 
+//func (fs *FeedService) GetRSSXMLContent() error {
+//	var publishers []models.Publisher
+//
+//	publishers, err := fs.feedRepo.GetPublishers()
+//
+//	if err != nil {
+//		println("Error on finding publishers", err.Error())
+//		return err
+//	}
+//
+//	client := http.Client{Timeout: 30 * time.Second}
+//	feedParser := gofeed.NewParser()
+//
+//	for _, publisher := range publishers {
+//		request, _ := http.NewRequest(http.MethodGet, publisher.RSS, nil)
+//		request.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8")
+//		response, err := client.Do(request)
+//
+//		if err != nil {
+//			println("Error fetching RSS feed for publisher:", publisher.Name, err.Error())
+//			continue
+//		}
+//
+//		feed, err := feedParser.Parse(response.Body)
+//
+//		if err != nil {
+//			println("Error parsing feed for publisher:", publisher.Name, err.Error())
+//			_ = response.Body.Close()
+//			continue
+//		}
+//
+//		_ = response.Body.Close()
+//
+//		fetchedArticles, err := fs.feedRepo.GetArticles()
+//		utils.ErrorPanicPrinter(err, true)
+//
+//		for _, article := range fetchedArticles {
+//			for y, item := range feed.Items {
+//				if article.ID == item.Link {
+//					feed.Items = remove(feed.Items, y)
+//				}
+//			}
+//		}
+//
+//		if len(feed.Items) == 0 {
+//			println("No new articles for publisher:", publisher.Name)
+//			continue
+//		}
+//
+//		if err := fs.UpdateRSSFeed(feed, &publisher); err != nil {
+//			println("Error updating from feed for publisher: ", publisher.Name, err.Error())
+//		}
+//	}
+//
+//	return nil
+//}
+
 func remove(slice []*gofeed.Item, s int) []*gofeed.Item {
 	return append(slice[:s], slice[s+1:]...)
+}
+
+func isResponseEmpty(article models.Article, strict bool) bool {
+	if strict {
+		return article.Title == "" || article.Description == "" || article.ImageUrl == ""
+	}
+
+	return article.Title == "" && article.Description == "" && article.ImageUrl == ""
+}
+
+func isURLAbsolute(url string) bool {
+	return strings.HasPrefix(url, "http://") || strings.HasPrefix(url, "https://")
+}
+
+func resolveURL(baseURL, relativeURL string) string {
+	base, err := url.Parse(baseURL)
+	if err != nil {
+		return "" // Handle error appropriately
+	}
+
+	ref, err := url.Parse(relativeURL)
+	if err != nil {
+		return "" // Handle error appropriately
+	}
+
+	return base.ResolveReference(ref).String()
 }
