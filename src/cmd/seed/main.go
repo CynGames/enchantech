@@ -1,8 +1,8 @@
 package main
 
 import (
-	. "enchantech-codex/src/core"
-	"enchantech-codex/src/models"
+	. "enchantech-codex/src/core/database"
+	models2 "enchantech-codex/src/core/database/models"
 	"enchantech-codex/src/utils"
 	"encoding/json"
 	"github.com/joho/godotenv"
@@ -29,12 +29,12 @@ func seedPublishers(db *gorm.DB) error {
 	byteValue, err := io.ReadAll(jsonFile)
 	utils.ErrorPanicPrinter(err, true)
 
-	var publishers []models.Publisher
+	var publishers []models2.Publisher
 	err = json.Unmarshal(byteValue, &publishers)
 	utils.ErrorPanicPrinter(err, true)
 
-	db.Where("1 = 1").Delete(&models.Article{})
-	db.Where("1 = 1").Delete(&models.Publisher{})
+	db.Where("1 = 1").Delete(&models2.Article{})
+	db.Where("1 = 1").Delete(&models2.Publisher{})
 
 	for _, publisher := range publishers {
 		result := db.Create(&publisher)

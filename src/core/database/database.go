@@ -1,7 +1,7 @@
-package di
+package database
 
 import (
-	"enchantech-codex/src/models"
+	models2 "enchantech-codex/src/core/database/models"
 	"enchantech-codex/src/utils"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -26,7 +26,7 @@ func SetupDatabase() (*gorm.DB, error) {
 	db, err := gorm.Open(mysql.Open(parsedAddress), &gorm.Config{})
 	utils.ErrorPanicPrinter(err, true)
 
-	err = db.AutoMigrate(&models.Publisher{}, &models.Article{}, &models.User{})
+	err = db.AutoMigrate(&models2.Publisher{}, &models2.Article{}, &models2.User{})
 	utils.ErrorPanicPrinter(err, true)
 
 	return db, err

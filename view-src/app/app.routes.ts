@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import {ROGUINNIEComponent} from "./rogu-innie/rogu-innie.component";
-import {ArticlesPageComponent} from "./articles/pages/articles-page/articles-page.component";
+import {ROGUINNIEComponent} from "../rogu-innie/rogu-innie.component";
+import {ArticlesPageComponent} from "../articles/articles-page.component";
 
 export const routes: Routes = [
   {

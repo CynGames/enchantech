@@ -1,8 +1,8 @@
 package service
 
 import (
+	models2 "enchantech-codex/src/core/database/models"
 	. "enchantech-codex/src/feeds/repository"
-	"enchantech-codex/src/models"
 	"enchantech-codex/src/utils"
 	"fmt"
 	"github.com/mmcdole/gofeed"
@@ -25,18 +25,18 @@ func NewFeedService(feedRepo *FeedRepository) *FeedService {
 	}
 }
 
-func (fs *FeedService) GetArticles() ([]models.Article, error) {
+func (fs *FeedService) GetArticles() ([]models2.Article, error) {
 	return fs.feedRepo.GetArticles()
 }
 
-func (fs *FeedService) UpdateRSSFeed(feed *gofeed.Feed, publisher *models.Publisher) (error, []models.Article) {
+func (fs *FeedService) UpdateRSSFeed(feed *gofeed.Feed, publisher *models2.Publisher) (error, []models2.Article) {
 	println("Parsing feed for publisher:", publisher.Name)
 
-	articles := make([]models.Article, 0)
-	failedArticles := make([]models.Article, 0)
+	articles := make([]models2.Article, 0)
+	failedArticles := make([]models2.Article, 0)
 
 	client := http.Client{Timeout: 30 * time.Second}
-	articleChannel := make(chan models.Article, len(feed.Items))
+	articleChannel := make(chan models2.Article, len(feed.Items))
 
 	var waitGroup sync.WaitGroup
 	var mutex sync.Mutex
@@ -85,7 +85,7 @@ func (fs *FeedService) UpdateRSSFeed(feed *gofeed.Feed, publisher *models.Publis
 			var properties = make(map[string]string)
 			utils.GetThumbnailProperties(node, properties)
 
-			newArticle := models.Article{
+			newArticle := models2.Article{
 				ID:             article.Link,
 				PublisherID:    publisher.ID,
 				Title:          properties["og:title"],
@@ -132,7 +132,7 @@ func (fs *FeedService) UpdateRSSFeed(feed *gofeed.Feed, publisher *models.Publis
 }
 
 func (fs *FeedService) GetRSSXMLContent() error {
-	var publishers []models.Publisher
+	var publishers []models2.Publisher
 	var wg sync.WaitGroup
 	var err error
 
@@ -148,7 +148,7 @@ func (fs *FeedService) GetRSSXMLContent() error {
 	for _, publisher := range publishers {
 		wg.Add(1)
 
-		go func(publisher models.Publisher) {
+		go func(publisher models2.Publisher) {
 			defer wg.Done()
 
 			request, err := http.NewRequest(http.MethodGet, publisher.RSS, nil)
@@ -268,7 +268,7 @@ func remove(slice []*gofeed.Item, s int) []*gofeed.Item {
 	return append(slice[:s], slice[s+1:]...)
 }
 
-func isResponseEmpty(article models.Article, strict bool) bool {
+func isResponseEmpty(article models2.Article, strict bool) bool {
 	if strict {
 		return article.Title == "" || article.Description == "" || article.ImageUrl == ""
 	}

@@ -15,7 +15,7 @@ func InitializeScheduler(feedService *service.FeedService) {
 	utils.ErrorPanicPrinter(err, true)
 	AddJob(scheduler, time.Hour, CronJobLogic, feedService)
 
-	scheduler.Start()
+	//scheduler.Start()
 }
 
 func AddJob(scheduler gocron.Scheduler, duration time.Duration, job CronJob, feedService *service.FeedService) {

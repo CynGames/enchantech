@@ -1,9 +1,11 @@
 package di
 
 import (
+	"enchantech-codex/src/controllers"
 	. "enchantech-codex/src/feeds/controller"
 	. "enchantech-codex/src/feeds/repository"
 	. "enchantech-codex/src/feeds/service"
+	"enchantech-codex/src/use_cases"
 	. "enchantech-codex/src/users/controller"
 	. "enchantech-codex/src/users/repository"
 	. "enchantech-codex/src/users/service"
@@ -21,6 +23,8 @@ type Container struct {
 	UserRepository *UserRepository
 	UserService    *UserService
 	UserController *UserController
+
+	fetchArticlesController *controllers.FetchArticlesController
 }
 
 func NewContainer(db *gorm.DB) *Container {
@@ -34,14 +38,18 @@ func NewContainer(db *gorm.DB) *Container {
 	userService := NewUserService(userRepository)
 	userController := NewUserController(userService)
 
+	newFetchArticlesUseCase := use_cases.NewFetchArticlesUseCase(db)
+	fetchArticlesController := controllers.NewFetchArticlesController(newFetchArticlesUseCase)
+
 	return &Container{
-		EchoInstance:   echoInstance,
-		FeedRepository: feedRepository,
-		FeedService:    feedService,
-		FeedController: feedController,
-		UserRepository: userRepository,
-		UserService:    userService,
-		UserController: userController,
+		EchoInstance:            echoInstance,
+		FeedRepository:          feedRepository,
+		FeedService:             feedService,
+		FeedController:          feedController,
+		UserRepository:          userRepository,
+		UserService:             userService,
+		UserController:          userController,
+		fetchArticlesController: fetchArticlesController,
 	}
 }
 
@@ -71,4 +79,8 @@ func (c *Container) GetUserService() *UserService {
 
 func (c *Container) GetUserController() *UserController {
 	return c.UserController
+}
+
+func (c *Container) GetFetchArticlesController() *controllers.FetchArticlesController {
+	return c.fetchArticlesController
 }
